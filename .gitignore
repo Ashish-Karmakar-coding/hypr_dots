@@ -1,0 +1,40 @@
+# ==========================================
+# Browsers & Communication (Sensitive Data & Cache)
+# ==========================================
+# Contains passwords, cookies, session tokens, and massive caches.
+BraveSoftware/
+discord/
+
+# ==========================================
+# Databases & Dev Tools (State & Credentials)
+# ==========================================
+# Contains local database states, server configs, and build caches.
+pgadmin4/
+go/
+yay/
+
+# ==========================================
+# System State & Binaries (Constantly changing)
+# ==========================================
+# These files record things like recent files, volume levels, or binary databases.
+dconf/
+kwalletrc
+pavucontrol.ini
+pulse/
+QtProject.conf
+session/
+trashrc
+config/
+xfce4/
+
+# ==========================================
+# VS Code (Selective Syncing)
+# ==========================================
+# VS Code stores massive amounts of cache and workspace history here. 
+# This rule ignores the whole folder EXCEPT your actual settings and keybindings.
+Code/*
+!Code/User/
+Code/User/workspaceStorage/
+Code/User/History/
+Code/User/globalStorage/
+gh/

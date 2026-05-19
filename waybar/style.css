@@ -1,0 +1,90 @@
+/* * Waybar Style - Balanced 3-Island Theme
+ * Features: Optimized height, Slate/Lavender palette, Pulse animations
+ */
+
+* {
+    font-family: "JetBrainsMono Nerd Font", "Roboto", "sans-serif";
+    font-size: 16px; 
+    border: none;
+    outline: none;
+}
+
+window#waybar {
+    background-color: transparent;
+}
+
+/* --- THE THREE BALANCED ISLANDS --- */
+
+.modules-left, 
+.modules-center, 
+.modules-right {
+    background-color: #313244; /* Slate Gray */
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 18px; /* Slightly reduced radius */
+    padding: 2px 12px; /* Decreased vertical padding for lower height */
+    margin: 2px 0px;
+}
+
+/* Individual module spacing within the islands */
+#workspaces, #clock, #cpu, #memory, #pulseaudio, #backlight, #network, #battery, #custom-power {
+    margin: 0px 10px; /* Refined spacing */
+    padding: 2px 0px;
+    font-weight: bold;
+}
+
+/* --- WORKSPACE SLIDE ANIMATION --- */
+
+#workspaces button {
+    color: #cba6f7; 
+    padding: 0px 12px;
+    margin: 3px 2px;
+    border-radius: 10px;
+    transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+    min-width: 32px;
+}
+
+#workspaces button.active {
+    color: #11111b;
+    background-color: #cba6f7;
+    min-width: 55px; 
+    border-radius: 10px;
+}
+
+#workspaces button.urgent {
+    background-color: #f38ba8;
+    color: #ffffff;
+}
+
+/* --- INDIVIDUAL COLORS --- */
+
+#clock { color: #f5c2e7; }
+#cpu { color: #fab387; }
+#memory { color: #a6e3a1; }
+#pulseaudio { color: #89dceb; }
+#backlight { color: #f9e2af; }
+#network { color: #f9e2af; }
+#battery, #custom-power { color: #f38ba8; }
+
+/* --- CHARGING PULSE --- */
+
+#battery.charging {
+    color: #a6e3a1; 
+    animation-name: pulse;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes pulse {
+    from { color: #a6e3a1; }
+    to { color: #ffffff; } 
+}
+
+/* --- HOVER EFFECTS --- */
+
+#clock:hover, #cpu:hover, #memory:hover, #pulseaudio:hover, 
+#backlight:hover, #network:hover, #battery:hover, #custom-power:hover {
+    background-color: #45475a; 
+    border-radius: 8px;
+}
