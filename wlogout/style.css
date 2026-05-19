@@ -31,40 +31,17 @@ button:hover {
 }
 
 /* --- Default Icon Paths --- */
-#lock { background-image: image(url("/usr/share/wlogout/icons/lock.png")); }
-#logout { background-image: image(url("/usr/share/wlogout/icons/logout.png")); }
-#suspend { background-image: image(url("/usr/share/wlogout/icons/suspend.png")); }
-#hibernate { background-image: image(url("/usr/share/wlogout/icons/hibernate.png")); }
-#reboot { background-image: image(url("/usr/share/wlogout/icons/reboot.png")); }
-#shutdown { background-image: image(url("/usr/share/wlogout/icons/shutdown.png")); }
+#lock { background-image: image(url("/home/kenshin/.config/wlogout/icons/lock.png")); }
+#logout { background-image: image(url("/home/kenshin/.config/wlogout/icons/logout.png")); }
+#suspend { background-image: image(url("/home/kenshin/.config/wlogout/icons/suspend.png")); }
+#hibernate { background-image: image(url("/home/kenshin/.config/wlogout/icons/hibernate.png")); }
+#reboot { background-image: image(url("/home/kenshin/.config/wlogout/icons/reboot.png")); }
+#shutdown { background-image: image(url("/home/kenshin/.config/wlogout/icons/shutdown.png")); }
 
-/* --- Pastel Hover Glows (Matches your Waybar) --- */
-#lock:hover {
-    box-shadow: 0 0 20px rgba(135, 184, 151, 0.4); /* Mint Green */
-    border-color: #87b897;
-}
-
-#logout:hover {
-    box-shadow: 0 0 20px rgba(232, 200, 129, 0.4); /* Sand Yellow */
-    border-color: #e8c881;
-}
-
-#suspend:hover {
-    box-shadow: 0 0 20px rgba(178, 135, 184, 0.4); /* Lavender */
-    border-color: #b287b8;
-}
-
-#hibernate:hover {
-    box-shadow: 0 0 20px rgba(178, 135, 184, 0.4); /* Lavender */
-    border-color: #b287b8;
-}
-
-#reboot:hover {
-    box-shadow: 0 0 20px rgba(125, 168, 209, 0.4); /* Slate Blue */
-    border-color: #7da8d1;
-}
-
-#shutdown:hover {
-    box-shadow: 0 0 20px rgba(224, 130, 131, 0.4); /* Rose Red */
-    border-color: #e08283;
+/* --- Unified Silver-Gray Hover Glow --- */
+button:hover {
+    background-color: rgba(60, 60, 60, 0.7); /* Slightly lighter gray background */
+    border: 1px solid #a6a6a6; /* Solid light gray border */
+    box-shadow: 0 0 25px rgba(166, 166, 166, 0.4); /* Smooth gray glow */
+    color: #ffffff; /* Brighten text on hover */
 }
