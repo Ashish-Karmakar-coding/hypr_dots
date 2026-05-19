@@ -40,10 +40,16 @@ WALLPAPER="${WALLPAPERS[$NEXT_INDEX]}"
 # Save the selected wallpaper for next time
 echo "$WALLPAPER" > "$HISTORY_FILE"
 
-# Apply the wallpaper using Hyprpaper
-hyprctl hyprpaper unload all
+# 1. Preload the NEW wallpaper first
 hyprctl hyprpaper preload "$WALLPAPER"
+
+# 2. Apply the NEW wallpaper
 hyprctl hyprpaper wallpaper ",$WALLPAPER"
 
+# 3. Unload the OLD wallpaper from RAM to prevent memory leaks
+if [[ -n "$LAST_WALL" ]]; then
+    hyprctl hyprpaper unload "$LAST_WALL"
+fi
+
 # Uncomment below if using `swww` for smooth transitions
-# swww img "$WALLPAPER" --transition-type grow --transition-duration 1
+ swww img "$WALLPAPER" --transition-type grow --transition-duration 1
