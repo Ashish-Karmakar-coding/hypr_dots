@@ -1,0 +1,70 @@
+* {
+    background-image: none;
+    font-family: "JetBrainsMono Nerd Font", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* The invisible overlay background (Hyprland will handle the blur) */
+window {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* Base style for all buttons */
+button {
+    color: #e6e6e6;
+    background-color: rgba(18, 18, 18, 0.65); /* Dark charcoal glass */
+    border: 1px solid rgba(255, 255, 255, 0.1); /* The ghost border */
+    border-radius: 30px; /* Smooth rounded corners */
+    margin: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 25%;
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+/* Add a slight drop shadow */
+button:hover {
+    background-color: rgba(40, 40, 40, 0.8);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+}
+
+/* --- Default Icon Paths --- */
+#lock { background-image: image(url("/usr/share/wlogout/icons/lock.png")); }
+#logout { background-image: image(url("/usr/share/wlogout/icons/logout.png")); }
+#suspend { background-image: image(url("/usr/share/wlogout/icons/suspend.png")); }
+#hibernate { background-image: image(url("/usr/share/wlogout/icons/hibernate.png")); }
+#reboot { background-image: image(url("/usr/share/wlogout/icons/reboot.png")); }
+#shutdown { background-image: image(url("/usr/share/wlogout/icons/shutdown.png")); }
+
+/* --- Pastel Hover Glows (Matches your Waybar) --- */
+#lock:hover {
+    box-shadow: 0 0 20px rgba(135, 184, 151, 0.4); /* Mint Green */
+    border-color: #87b897;
+}
+
+#logout:hover {
+    box-shadow: 0 0 20px rgba(232, 200, 129, 0.4); /* Sand Yellow */
+    border-color: #e8c881;
+}
+
+#suspend:hover {
+    box-shadow: 0 0 20px rgba(178, 135, 184, 0.4); /* Lavender */
+    border-color: #b287b8;
+}
+
+#hibernate:hover {
+    box-shadow: 0 0 20px rgba(178, 135, 184, 0.4); /* Lavender */
+    border-color: #b287b8;
+}
+
+#reboot:hover {
+    box-shadow: 0 0 20px rgba(125, 168, 209, 0.4); /* Slate Blue */
+    border-color: #7da8d1;
+}
+
+#shutdown:hover {
+    box-shadow: 0 0 20px rgba(224, 130, 131, 0.4); /* Rose Red */
+    border-color: #e08283;
+}
