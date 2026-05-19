@@ -1,73 +1,59 @@
 {
-    "layer": "top",
-    "position": "top",
-    "height": 40,
-    "spacing": 0,
-    
-    "modules-left": ["hyprland/workspaces", "hyprland/window"],
-    "modules-center": ["clock"],
-    "modules-right": ["network", "pulseaudio", "battery", "custom/power"],
-
-    "hyprland/workspaces": {
-        "format": "{icon}",
-        "on-click": "activate",
-        "format-icons": {
-            "active": "",
-            "default": "",
-            "empty": ""
-        },
-        "persistent-workspaces": {
-            "*": 5
-        }
+    "output": "HDMI-A-1",
+    "layer": "top", // Waybar at top layer
+    "modules-left": ["hyprland/workspaces"],
+    "modules-right": ["tray", "cpu", "memory", "backlight", "network", "pulseaudio", "battery", "clock"],
+    "tray": {
+        // "icon-size": 21,
+        "spacing": 10
     },
-    
-    "hyprland/window": {
-        "format": "{title}",
-        "max-length": 30,
-        "rewrite": {
-            "(.*) - Mozilla Firefox": "󰈹 $1",
-            "(.*) - Brave": " $1",
-            "(.*) - zsh": " $1",
-            "(.*) - kitty": " $1"
-        }
-    },
-
     "clock": {
-        "format": "{:%I:%M %p}",
-        "format-alt": "{:%A, %B %d, %Y}",
-        "tooltip-format": "<tt><small>{calendar}</small></tt>"
+        "tooltip-format": "{:%Y-%m-%d | %H:%M}",
+        "format-alt": "{:%Y-%m-%d}",
+        "format": "{:%a %Y-%m-%d %I:%M %p}" 
     },
-
+    "cpu": {
+        "format": "　{usage}%"
+    },
+    "memory": {
+        "format": "　{}%"
+    },
+    "backlight": {
+        //"device": "intel_backlight",
+        "format": "　{percent}%",
+        "format-icons": ["", ""]
+    },
+    "battery": {
+        //"states": {
+        //    // "good": 95,
+        //    "warning": 30,
+        //    "critical": 15
+        //},
+        "format": "　{capacity}%"
+        // "format-good": "", // An empty format will hide the module
+        // "format-full": "",
+        //"format-icons": ["", "", "", "", ""]
+    },
     "network": {
-        "format-wifi": " ",
-        "format-ethernet": "󰈀 ",
-        "format-disconnected": "󰖪 ",
-        "tooltip-format": "{essid}"
+        // "interface": "wlp2s0", // (Optional) To force the use of this interface
+        "format-wifi": "　{signalStrength}%",
+        "format-ethernet": "{ifname}: {ipaddr}/{cidr} ethernet",
+        "format-disconnected": "⚠"
     },
-
     "pulseaudio": {
-        "format": "{icon} {volume}%",
-        "format-muted": "󰖁 Muted",
+        //"scroll-step": 1,
+        "format": "　{volume}%",
+        "format-bluetooth": "{volume}% {icon}",
+        "format-muted": "",
         "format-icons": {
-            "default": ["", "", ""]
+            "headphones": "",
+            "handsfree": "",
+            "headset": "",
+            "phone": "",
+            "portable": "",
+            "car": "",
+            "default": ["", ""]
         },
         "on-click": "pavucontrol"
-    },
-
-    "battery": {
-        "states": {
-            "warning": 30,
-            "critical": 15
-        },
-        "format": "{icon} {capacity}%",
-        "format-charging": "󰂄 {capacity}%",
-        "format-plugged": " {capacity}%",
-        "format-icons": ["", "", "", "", ""]
-    },
-
-    "custom/power": {
-        "format": "",
-        "on-click": "wlogout",
-        "tooltip": false
     }
 }
