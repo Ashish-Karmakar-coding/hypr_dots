@@ -1,52 +1,49 @@
 #!/bin/bash
 
 # Directory containing wallpapers
-WALLPAPER_DIR="$HOME/wallpapers"
+WALLPAPER_DIR="$HOME/wallpapers/"
 HISTORY_FILE="$HOME/.last_wallpaper"
 
-# 1. Ensure the directory exists
-if [ ! -d "$WALLPAPER_DIR" ]; then
-    echo "Directory $WALLPAPER_DIR does not exist."
-    exit 1
-fi
+# Get the list of wallpapers sorted alphabetically
+WALLPAPERS=($(find "$WALLPAPER_DIR" -type f | sort))
 
-# 2. Get wallpapers (using mapfile to handle spaces in names correctly)
-mapfile -t WALLPAPERS < <(find "$WALLPAPER_DIR" -type f \( -iname "*.jpg" -o -iname "*.png" -o -iname "*.webp" \) | sort)
-
+# Check if wallpapers exist
 if [[ ${#WALLPAPERS[@]} -eq 0 ]]; then
-    echo "No wallpapers found."
+    echo "No wallpapers found in $WALLPAPER_DIR"
     exit 1
 fi
 
-# 3. Read history
-LAST_WALL=$(cat "$HISTORY_FILE" 2>/dev/null)
+# Read the last used wallpaper from history
+if [[ -f "$HISTORY_FILE" ]]; then
+    LAST_WALL=$(cat "$HISTORY_FILE")
+else
+    LAST_WALL=""
+fi
 
-# 4. Find next index
+# Find the index of the last used wallpaper
 NEXT_INDEX=0
 for i in "${!WALLPAPERS[@]}"; do
     if [[ "${WALLPAPERS[$i]}" == "$LAST_WALL" ]]; then
-        NEXT_INDEX=$(( (i + 1) % ${#WALLPAPERS[@]} ))
+        NEXT_INDEX=$((i + 1))
         break
     fi
 done
 
-WALLPAPER="${WALLPAPERS[$NEXT_INDEX]}"
-
-# --- APPLICATION BLOCK ---
-
-# OPTION A: Using swww (Recommended for modern animations)
-# This solves the "bad path" and "unknown request" issues entirely.
-if pgrep -x "swww-daemon" > /dev/null; then
-    swww img "$WALLPAPER" --transition-type grow --transition-duration 1.5 --transition-fps 60
-else
-    # if swww isn't running, start it and set wall
-    swww-daemon & sleep 0.5 && swww img "$WALLPAPER"
+# Loop back to the first wallpaper if we reached the end
+if [[ $NEXT_INDEX -ge ${#WALLPAPERS[@]} ]]; then
+    NEXT_INDEX=0
 fi
 
-# OPTION B: Using hyprpaper (If you prefer it, uncomment below and comment Option A)
-# hyprctl hyprpaper unload all
-# hyprctl hyprpaper preload "$WALLPAPER"
-# hyprctl hyprpaper wallpaper ",$WALLPAPER"
+# Get the next wallpaper
+WALLPAPER="${WALLPAPERS[$NEXT_INDEX]}"
 
-# 5. Save history
+# Save the selected wallpaper for next time
 echo "$WALLPAPER" > "$HISTORY_FILE"
+
+# Apply the wallpaper using Hyprpaper
+hyprctl hyprpaper unload all
+hyprctl hyprpaper preload "$WALLPAPER"
+hyprctl hyprpaper wallpaper ",$WALLPAPER"
+
+# Uncomment below if using `swww` for smooth transitions
+# swww img "$WALLPAPER" --transition-type grow --transition-duration 1
