@@ -1,0 +1,1 @@
+/home/kenshin/.bashrc
