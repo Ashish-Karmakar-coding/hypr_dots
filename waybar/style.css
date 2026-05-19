@@ -1,90 +1,76 @@
-/* * Waybar Style - Balanced 3-Island Theme
- * Features: Optimized height, Slate/Lavender palette, Pulse animations
- */
-
 * {
-    font-family: "JetBrainsMono Nerd Font", "Roboto", "sans-serif";
-    font-size: 16px; 
-    border: none;
-    outline: none;
-}
-
-window#waybar {
-    background-color: transparent;
-}
-
-/* --- THE THREE BALANCED ISLANDS --- */
-
-.modules-left, 
-.modules-center, 
-.modules-right {
-    background-color: #313244; /* Slate Gray */
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    border-radius: 18px; /* Slightly reduced radius */
-    padding: 2px 12px; /* Decreased vertical padding for lower height */
-    margin: 2px 0px;
-}
-
-/* Individual module spacing within the islands */
-#workspaces, #clock, #cpu, #memory, #pulseaudio, #backlight, #network, #battery, #custom-power {
-    margin: 0px 10px; /* Refined spacing */
-    padding: 2px 0px;
+    font-family: "JetBrainsMono Nerd Font", sans-serif;
+    font-size: 13px;
     font-weight: bold;
+    border: none;
+    border-radius: 0;
+    min-height: 0;
 }
 
-/* --- WORKSPACE SLIDE ANIMATION --- */
+/* Make the main bar background completely invisible */
+window#waybar {
+    background: transparent; 
+}
 
+/* ==========================================
+   Left Side: Floating Capsule
+   ========================================== */
+.modules-left {
+    background-color: rgba(18, 18, 18, 0.65);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 50px; /* Perfect pill shape */
+    margin: 10px 0 10px 20px; /* Floats down and right from the corner */
+    padding: 2px 15px;
+}
+
+/* ==========================================
+   Center: The Notch
+   ========================================== */
+.modules-center {
+    background-color: rgba(18, 18, 18, 0.80); /* Slightly darker for focus */
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-top: none; /* Seamless with the top of the screen */
+    border-radius: 0 0 24px 24px; /* Rounded only on the bottom corners */
+    margin: 0; /* Touches the very top edge */
+    padding: 6px 30px;
+}
+
+/* ==========================================
+   Right Side: Floating Capsule
+   ========================================== */
+.modules-right {
+    background-color: rgba(18, 18, 18, 0.65);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 50px; /* Perfect pill shape */
+    margin: 10px 20px 10px 0; /* Floats down and left from the corner */
+    padding: 2px 15px;
+}
+
+/* ==========================================
+   Module Colors & Spacing
+   ========================================== */
 #workspaces button {
-    color: #cba6f7; 
-    padding: 0px 12px;
-    margin: 3px 2px;
-    border-radius: 10px;
-    transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
-    min-width: 32px;
+    padding: 0 8px;
+    color: #595959;
+    transition: all 0.3s ease;
 }
 
 #workspaces button.active {
-    color: #11111b;
-    background-color: #cba6f7;
-    min-width: 55px; 
-    border-radius: 10px;
+    color: #e6e6e6;
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.3);
 }
 
-#workspaces button.urgent {
-    background-color: #f38ba8;
-    color: #ffffff;
+#workspaces button:hover {
+    color: #7da8d1;
+    background: transparent;
+    box-shadow: none;
 }
 
-/* --- INDIVIDUAL COLORS --- */
-
-#clock { color: #f5c2e7; }
-#cpu { color: #fab387; }
-#memory { color: #a6e3a1; }
-#pulseaudio { color: #89dceb; }
-#backlight { color: #f9e2af; }
-#network { color: #f9e2af; }
-#battery, #custom-power { color: #f38ba8; }
-
-/* --- CHARGING PULSE --- */
-
-#battery.charging {
-    color: #a6e3a1; 
-    animation-name: pulse;
-    animation-duration: 2s;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-}
-
-@keyframes pulse {
-    from { color: #a6e3a1; }
-    to { color: #ffffff; } 
-}
-
-/* --- HOVER EFFECTS --- */
-
-#clock:hover, #cpu:hover, #memory:hover, #pulseaudio:hover, 
-#backlight:hover, #network:hover, #battery:hover, #custom-power:hover {
-    background-color: #45475a; 
-    border-radius: 8px;
-}
+#window { margin-left: 10px; color: #cccccc; font-weight: normal; }
+#clock { color: #e6e6e6; font-size: 14px; }
+#network { color: #b287b8; margin: 0 10px; }
+#pulseaudio { color: #7da8d1; margin: 0 10px; }
+#battery { color: #87b897; margin: 0 10px; }
+#battery.warning { color: #e8c881; }
+#battery.critical { color: #e08283; }
+#custom-power { color: #e08283; margin-left: 15px; font-size: 15px; }
