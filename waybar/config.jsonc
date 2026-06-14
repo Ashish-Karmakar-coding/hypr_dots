@@ -1,5 +1,5 @@
 {
-    "output": "HDMI-A-1",
+    //"output": "HDMI-A-1",
     "layer": "top", // Waybar at top layer
     "modules-left": ["hyprland/workspaces"],
     "modules-right": ["tray", "cpu", "memory", "backlight", "network", "pulseaudio", "battery", "clock"],

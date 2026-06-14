@@ -1,0 +1,34 @@
+[2026-06-06 22:24:03.081] [info]  [IDE Wizard] /home/kenshin/.gemini/antigravity not found — user was not migrated, skipping.
+[2026-06-06 22:24:03.084] [info]  Starting app (v2.0.11) with dynamic port…
+[2026-06-06 22:24:03.085] [info]  
+Spawning: /opt/Antigravity/resources/bin/language_server --standalone --override_ide_name antigravity --subclient_type hub --override_ide_version 2.0.11 --override_user_agent_name antigravity --https_server_port 0 --csrf_token 846ab7f4-722f-4a13-8617-27f57d6a5ea9 --app_data_dir antigravity --api_server_url https://generativelanguage.googleapis.com --cloud_code_endpoint https://daily-cloudcode-pa.googleapis.com --enable_sidecars
+
+[2026-06-06 22:24:03.249] [info]  [Auto-Restart] Port changed! Reloading all windows with URL: https://127.0.0.1:41741/
+[2026-06-06 22:24:03.249] [info]  
+============================================================
+[2026-06-06 22:24:03.250] [info]    Local:       https://127.0.0.1:41741/
+[2026-06-06 22:24:03.250] [info]    LS Logs:     /home/kenshin/.config/Antigravity/logs/language_server.log
+[2026-06-06 22:24:03.250] [info]    Electron Logs: /home/kenshin/.config/Antigravity/logs/main.log
+[2026-06-06 22:24:03.250] [info]  ============================================================
+
+[2026-06-06 22:24:13.284] [warn]  APPIMAGE env is not defined, current application is not an AppImage
+[2026-06-06 22:25:15.484] [info]  Shutting down language server…
+[2026-06-13 12:42:17.180] [info]  [IDE Wizard] Already shown, skipping.
+[2026-06-13 12:42:17.185] [info]  Starting app (v2.0.11) with dynamic port…
+[2026-06-13 12:42:17.186] [info]  
+Spawning: /opt/Antigravity/resources/bin/language_server --standalone --override_ide_name antigravity --subclient_type hub --override_ide_version 2.0.11 --override_user_agent_name antigravity --https_server_port 0 --csrf_token 080a7d04-a2ab-4b68-a5a9-92ba431f93eb --app_data_dir antigravity --api_server_url https://generativelanguage.googleapis.com --cloud_code_endpoint https://daily-cloudcode-pa.googleapis.com --enable_sidecars
+
+[2026-06-13 12:42:17.361] [info]  [Auto-Restart] Port changed! Reloading all windows with URL: https://127.0.0.1:39671/
+[2026-06-13 12:42:17.362] [info]  
+============================================================
+[2026-06-13 12:42:17.362] [info]    Local:       https://127.0.0.1:39671/
+[2026-06-13 12:42:17.362] [info]    LS Logs:     /home/kenshin/.config/Antigravity/logs/language_server.log
+[2026-06-13 12:42:17.362] [info]    Electron Logs: /home/kenshin/.config/Antigravity/logs/main.log
+[2026-06-13 12:42:17.362] [info]  ============================================================
+
+[2026-06-13 12:42:27.416] [warn]  APPIMAGE env is not defined, current application is not an AppImage
+[2026-06-13 13:42:27.422] [warn]  APPIMAGE env is not defined, current application is not an AppImage
+[2026-06-13 14:42:27.426] [warn]  APPIMAGE env is not defined, current application is not an AppImage
+[2026-06-13 15:42:27.432] [warn]  APPIMAGE env is not defined, current application is not an AppImage
+[2026-06-13 16:42:27.436] [warn]  APPIMAGE env is not defined, current application is not an AppImage
+[2026-06-13 16:55:19.241] [info]  Shutting down language server…
