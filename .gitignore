@@ -4,7 +4,7 @@
 # Contains passwords, cookies, session tokens, and massive caches.
 BraveSoftware/
 discord/
-
+Antigravity/
 # ==========================================
 # Databases & Dev Tools (State & Credentials)
 # ==========================================
@@ -39,4 +39,3 @@ Code/User/History/
 Code/User/globalStorage/
 gh/
 
-Antigravity/
