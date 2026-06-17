@@ -158,3 +158,46 @@ E0617 22:47:54.142662  3592 log.go:398] Failed to poll ListExperiments: error ge
 W0617 22:47:54.143382  3592 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
 W0617 22:47:54.143433  3592 log_context.go:117] Cache(availableModels): Singleflight refresh failed: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
 E0617 22:47:54.143520  3592 log.go:398] Failed to poll FetchAvailableModels: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+W0617 22:48:24.130127  3592 auth_client.go:109] No token found in background token refresh loop
+W0617 22:48:54.129913  3592 auth_client.go:109] No token found in background token refresh loop
+E0617 22:48:54.142899  3592 log.go:398] Failed to poll ListExperiments: error getting token source: You are not logged into Antigravity.
+W0617 22:48:54.143492  3592 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+W0617 22:48:54.143529  3592 log_context.go:117] Cache(availableModels): Singleflight refresh failed: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+E0617 22:48:54.143610  3592 log.go:398] Failed to poll FetchAvailableModels: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+W0617 22:49:24.129283  3592 auth_client.go:109] No token found in background token refresh loop
+W0617 22:49:54.129608  3592 auth_client.go:109] No token found in background token refresh loop
+E0617 22:49:54.143673  3592 log.go:398] Failed to poll ListExperiments: error getting token source: You are not logged into Antigravity.
+W0617 22:49:54.144408  3592 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+W0617 22:49:54.144453  3592 log_context.go:117] Cache(availableModels): Singleflight refresh failed: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+E0617 22:49:54.144551  3592 log.go:398] Failed to poll FetchAvailableModels: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+W0617 22:50:24.129909  3592 auth_client.go:109] No token found in background token refresh loop
+W0617 22:50:54.129575  3592 auth_client.go:109] No token found in background token refresh loop
+E0617 22:50:54.142616  3592 log.go:398] Failed to poll ListExperiments: error getting token source: You are not logged into Antigravity.
+W0617 22:50:54.143218  3592 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+W0617 22:50:54.143255  3592 log_context.go:117] Cache(availableModels): Singleflight refresh failed: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+E0617 22:50:54.143322  3592 log.go:398] Failed to poll FetchAvailableModels: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+W0617 22:51:24.129743  3592 auth_client.go:109] No token found in background token refresh loop
+W0617 22:51:54.129993  3592 auth_client.go:109] No token found in background token refresh loop
+E0617 22:51:54.143302  3592 log.go:398] Failed to poll ListExperiments: error getting token source: You are not logged into Antigravity.
+W0617 22:51:54.144071  3592 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+W0617 22:51:54.144116  3592 log_context.go:117] Cache(availableModels): Singleflight refresh failed: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+E0617 22:51:54.144205  3592 log.go:398] Failed to poll FetchAvailableModels: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+W0617 22:52:24.129880  3592 auth_client.go:109] No token found in background token refresh loop
+W0617 22:52:54.129290  3592 auth_client.go:109] No token found in background token refresh loop
+E0617 22:52:54.142606  3592 log.go:398] Failed to poll ListExperiments: error getting token source: You are not logged into Antigravity.
+W0617 22:52:54.143179  3592 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+W0617 22:52:54.143217  3592 log_context.go:117] Cache(availableModels): Singleflight refresh failed: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+E0617 22:52:54.143285  3592 log.go:398] Failed to poll FetchAvailableModels: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+W0617 22:53:24.129255  3592 auth_client.go:109] No token found in background token refresh loop
+W0617 22:53:54.130100  3592 auth_client.go:109] No token found in background token refresh loop
+E0617 22:53:54.143085  3592 log.go:398] Failed to poll ListExperiments: error getting token source: You are not logged into Antigravity.
+W0617 22:53:54.143661  3592 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+W0617 22:53:54.143695  3592 log_context.go:117] Cache(availableModels): Singleflight refresh failed: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+E0617 22:53:54.143779  3592 log.go:398] Failed to poll FetchAvailableModels: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+W0617 22:54:24.129291  3592 auth_client.go:109] No token found in background token refresh loop
+W0617 22:54:54.129867  3592 auth_client.go:109] No token found in background token refresh loop
+E0617 22:54:54.142574  3592 log.go:398] Failed to poll ListExperiments: error getting token source: You are not logged into Antigravity.
+W0617 22:54:54.142899  3592 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+W0617 22:54:54.142920  3592 log_context.go:117] Cache(availableModels): Singleflight refresh failed: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+E0617 22:54:54.142956  3592 log.go:398] Failed to poll FetchAvailableModels: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+W0617 22:55:24.129296  3592 auth_client.go:109] No token found in background token refresh loop
