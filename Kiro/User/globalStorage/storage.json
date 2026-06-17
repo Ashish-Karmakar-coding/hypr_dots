@@ -1,0 +1,81 @@
+{
+    "telemetry.sqmId": "",
+    "telemetry.machineId": "67957d334f9143691d1558e4156e4837deb104f08738f79f8e09ccde457b3377",
+    "telemetry.devDeviceId": "ed847e3c-005e-4df7-bf82-b0f0b0a54931",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [
+            {
+                "folderUri": "file:///home/kenshin/Github/KiroRouter"
+            }
+        ],
+        "emptyWindows": [
+            {
+                "backupFolder": "1781628555454"
+            }
+        ]
+    },
+    "windowControlHeight": 35,
+    "profileAssociations": {
+        "workspaces": {
+            "file:///home/kenshin/Github/KiroRouter": "__default__profile__"
+        },
+        "emptyWindows": {
+            "1781628555454": "__default__profile__"
+        }
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#211d25",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#ffffff",
+            "background": "#211d25",
+            "editorBackground": "#211d25",
+            "titleBarBackground": "rgba(0, 0, 0, 0)",
+            "titleBarBorder": "rgba(0, 0, 0, 0)",
+            "activityBarBackground": "#28242e",
+            "activityBarBorder": "#4a464f",
+            "sideBarBackground": "#211d25",
+            "statusBarBackground": "rgba(0, 0, 0, 0)",
+            "statusBarNoFolderBackground": "rgba(0, 0, 0, 0)"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 48,
+            "sideBarWidth": 199,
+            "auxiliaryBarWidth": 473,
+            "statusBarHeight": 22,
+            "windowBorder": false
+        }
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "folder": "file:///home/kenshin/Github/KiroRouter",
+            "backupPath": "/home/kenshin/.config/Kiro/Backups/49d3c6c4092c25fdc5a81f0df78ebc35",
+            "uiState": {
+                "mode": 0,
+                "x": 0,
+                "y": 0,
+                "width": 956,
+                "height": 1044
+            }
+        },
+        "openedWindows": []
+    },
+    "windowSplashWorkspaceOverride": {
+        "layoutInfo": {
+            "sideBarWidth": 199,
+            "auxiliaryBarWidth": 473,
+            "workspaces": {
+                "79c3f509b07c56a432efdb0809dc836d": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                }
+            }
+        }
+    }
+}

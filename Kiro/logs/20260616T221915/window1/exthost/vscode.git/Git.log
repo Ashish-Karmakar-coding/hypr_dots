@@ -1,0 +1,147 @@
+2026-06-16 22:19:17.852 [info] [main] Log level: Info
+2026-06-16 22:19:17.852 [info] [main] Validating found git in: "git"
+2026-06-16 22:19:17.852 [info] [main] Using git "2.54.0" from "git"
+2026-06-16 22:19:17.852 [info] [Model][doInitialScan] Initial repository scan started
+2026-06-16 22:19:17.852 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2026-06-16 22:37:51.958 [info] [main] Log level: Info
+2026-06-16 22:37:51.958 [info] [main] Validating found git in: "git"
+2026-06-16 22:37:51.958 [info] [main] Using git "2.54.0" from "git"
+2026-06-16 22:37:51.958 [info] [Model][doInitialScan] Initial repository scan started
+2026-06-16 22:37:51.958 [info] > git rev-parse --show-toplevel [5ms]
+2026-06-16 22:37:51.973 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [10ms]
+2026-06-16 22:37:51.978 [info] [Model][openRepository] Opened repository (path): /home/kenshin/Github/KiroRouter
+2026-06-16 22:37:51.978 [info] [Model][openRepository] Opened repository (real path): /home/kenshin/Github/KiroRouter
+2026-06-16 22:37:51.978 [info] [Model][openRepository] Opened repository (kind): repository
+2026-06-16 22:37:51.988 [info] > git rev-parse --show-toplevel [2ms]
+2026-06-16 22:37:51.988 [info] > git config --get commit.template [5ms]
+2026-06-16 22:37:51.994 [info] > git rev-parse --show-toplevel [3ms]
+2026-06-16 22:37:51.999 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2026-06-16 22:37:52.002 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/kenshin/Github/KiroRouter/.git/refs/remotes/origin/main'
+2026-06-16 22:37:52.002 [info] > git rev-parse --show-toplevel [4ms]
+2026-06-16 22:37:52.005 [info] > git rev-parse refs/remotes/origin/main [3ms]
+2026-06-16 22:37:52.012 [info] > git rev-parse --show-toplevel [7ms]
+2026-06-16 22:37:52.012 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2026-06-16 22:37:52.013 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2026-06-16 22:37:52.017 [info] > git status -z -uall [9ms]
+2026-06-16 22:37:52.033 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2026-06-16 22:37:52.038 [info] > git config --get --local branch.main.vscode-merge-base [1ms]
+2026-06-16 22:37:52.038 [warning] [Git][config] git config failed: Failed to execute git
+2026-06-16 22:37:52.040 [info] > git config --get commit.template [7ms]
+2026-06-16 22:37:52.045 [info] > git reflog main --grep-reflog=branch: Created from *. [5ms]
+2026-06-16 22:37:52.052 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [5ms]
+2026-06-16 22:37:52.054 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2026-06-16 22:37:52.056 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/kenshin/Github/KiroRouter/.git/refs/remotes/origin/main'
+2026-06-16 22:37:52.057 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [3ms]
+2026-06-16 22:37:52.060 [info] > git rev-parse refs/remotes/origin/main [4ms]
+2026-06-16 22:37:52.065 [info] > git config --add --local branch.main.vscode-merge-base origin/main [6ms]
+2026-06-16 22:37:52.065 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [0ms] (cancelled)
+2026-06-16 22:37:52.069 [info] > git status -z -uall [7ms] (cancelled)
+2026-06-16 22:37:52.070 [info] > git config --get commit.template [1ms]
+2026-06-16 22:37:52.074 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2026-06-16 22:37:52.077 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/kenshin/Github/KiroRouter/.git/refs/remotes/origin/main'
+2026-06-16 22:37:52.079 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2026-06-16 22:37:52.086 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2026-06-16 22:37:52.095 [info] > git status -z -uall [13ms]
+2026-06-16 22:37:52.101 [info] > git merge-base refs/heads/main refs/remotes/origin/main [3ms]
+2026-06-16 22:37:52.105 [info] > git merge-base refs/heads/main refs/remotes/origin/main [4ms]
+2026-06-16 22:37:52.110 [info] > git diff --name-status -z --diff-filter=ADMR --find-renames=50% 422698de82abd6c7b3ab54445a55b0b5638ccbda...refs/remotes/origin/main -- [6ms]
+2026-06-16 22:37:52.111 [info] > git diff --name-status -z --diff-filter=ADMR --find-renames=50% 422698de82abd6c7b3ab54445a55b0b5638ccbda...refs/remotes/origin/main -- [1ms]
+2026-06-16 22:37:52.495 [info] > git check-ignore -v -z --stdin [2ms]
+2026-06-16 22:37:53.152 [info] > git config --get commit.template [5ms]
+2026-06-16 22:37:53.153 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2026-06-16 22:37:53.156 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/kenshin/Github/KiroRouter/.git/refs/remotes/origin/main'
+2026-06-16 22:37:53.156 [info] > git rev-parse refs/remotes/origin/main [0ms]
+2026-06-16 22:37:53.162 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2026-06-16 22:37:53.169 [info] > git status -z -uall [10ms]
+2026-06-16 22:40:32.913 [info] > git config --get --global core.excludesfile [32ms]
+2026-06-16 22:40:32.913 [warning] [Git][config] git config failed: Failed to execute git
+2026-06-16 22:40:34.407 [info] > git show --textconv :CLA.md [16ms]
+2026-06-16 22:40:34.407 [info] > git ls-files --stage -- CLA.md [13ms]
+2026-06-16 22:40:34.430 [info] > git cat-file -s 41d0a2677a5d677591b5d5a978d6c846f17a02f0 [19ms]
+2026-06-16 22:40:34.636 [info] > git check-ignore -v -z --stdin [1ms]
+2026-06-16 22:40:40.467 [info] > git config --get --global core.excludesfile [33ms]
+2026-06-16 22:40:40.467 [warning] [Git][config] git config failed: Failed to execute git
+2026-06-16 22:43:05.899 [info] > git config --get --global core.excludesfile [4ms]
+2026-06-16 22:43:05.899 [warning] [Git][config] git config failed: Failed to execute git
+2026-06-16 22:43:36.921 [info] > git config --get --global core.excludesfile [30ms]
+2026-06-16 22:43:36.921 [warning] [Git][config] git config failed: Failed to execute git
+2026-06-16 22:43:36.941 [info] > git config --get --global core.excludesfile [1ms]
+2026-06-16 22:43:36.941 [warning] [Git][config] git config failed: Failed to execute git
+2026-06-16 22:43:57.781 [info] > git config --get commit.template [5ms]
+2026-06-16 22:43:57.782 [info] > git check-ignore -v -z --stdin [1ms]
+2026-06-16 22:43:57.786 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2026-06-16 22:43:57.789 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/kenshin/Github/KiroRouter/.git/refs/remotes/origin/main'
+2026-06-16 22:43:57.790 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2026-06-16 22:43:57.796 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2026-06-16 22:43:57.799 [info] > git status -z -uall [7ms]
+2026-06-16 22:43:58.509 [info] > git show --textconv :.gitignore [7ms]
+2026-06-16 22:43:58.510 [info] > git ls-files --stage -- .gitignore [2ms]
+2026-06-16 22:43:58.517 [info] > git cat-file -s 679a6d8a049069d2fa7c0172b6b399ab8438b990 [2ms]
+2026-06-16 22:43:58.930 [info] > git show --textconv :.env [6ms]
+2026-06-16 22:43:58.936 [info] > git ls-files --stage -- .env [7ms]
+2026-06-16 22:43:58.941 [info] > git hash-object -t tree /dev/null [6ms]
+2026-06-16 22:43:58.941 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/kenshin/Github/KiroRouter/.env.git?%7B%22path%22%3A%22%2Fhome%2Fkenshin%2FGithub%2FKiroRouter%2F.env%22%2C%22ref%22%3A%22%22%7D
+2026-06-16 22:43:58.943 [info] > git hash-object -t tree /dev/null [2ms]
+2026-06-16 22:43:58.943 [warning] [GitFileSystemProvider][stat] File not found - git:/home/kenshin/Github/KiroRouter/.env.git?%7B%22path%22%3A%22%2Fhome%2Fkenshin%2FGithub%2FKiroRouter%2F.env%22%2C%22ref%22%3A%22%22%7D
+2026-06-16 22:43:58.960 [info] > git show --textconv :.env [7ms]
+2026-06-16 22:43:58.960 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/kenshin/Github/KiroRouter/.env.git?%7B%22path%22%3A%22%2Fhome%2Fkenshin%2FGithub%2FKiroRouter%2F.env%22%2C%22ref%22%3A%22%22%7D
+2026-06-16 22:43:58.961 [info] > git ls-files --stage -- .env [2ms]
+2026-06-16 22:43:58.961 [warning] [GitFileSystemProvider][stat] File not found - git:/home/kenshin/Github/KiroRouter/.env.git?%7B%22path%22%3A%22%2Fhome%2Fkenshin%2FGithub%2FKiroRouter%2F.env%22%2C%22ref%22%3A%22%22%7D
+2026-06-16 22:44:03.736 [info] > git blame --root --incremental 422698de82abd6c7b3ab54445a55b0b5638ccbda -- .env [40ms]
+2026-06-16 22:44:03.736 [info] fatal: no such path .env in 422698de82abd6c7b3ab54445a55b0b5638ccbda
+2026-06-16 22:44:05.718 [info] > git config --get --global core.excludesfile [29ms]
+2026-06-16 22:44:05.718 [warning] [Git][config] git config failed: Failed to execute git
+2026-06-16 22:44:32.070 [info] > git config --get commit.template [6ms]
+2026-06-16 22:44:32.071 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2026-06-16 22:44:32.076 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/kenshin/Github/KiroRouter/.git/refs/remotes/origin/main'
+2026-06-16 22:44:32.078 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2026-06-16 22:44:32.090 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2026-06-16 22:44:32.098 [info] > git status -z -uall [15ms]
+2026-06-16 22:45:29.672 [info] > git config --get commit.template [7ms]
+2026-06-16 22:45:29.673 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2026-06-16 22:45:29.678 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/kenshin/Github/KiroRouter/.git/refs/remotes/origin/main'
+2026-06-16 22:45:29.679 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2026-06-16 22:45:29.692 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2026-06-16 22:45:29.701 [info] > git status -z -uall [17ms]
+2026-06-16 22:46:46.705 [info] > git show --textconv :.env [9ms]
+2026-06-16 22:46:46.705 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/kenshin/Github/KiroRouter/.env.git?%7B%22path%22%3A%22%2Fhome%2Fkenshin%2FGithub%2FKiroRouter%2F.env%22%2C%22ref%22%3A%22%22%7D
+2026-06-16 22:46:46.728 [info] > git ls-files --stage -- .env [25ms]
+2026-06-16 22:46:46.729 [warning] [GitFileSystemProvider][stat] File not found - git:/home/kenshin/Github/KiroRouter/.env.git?%7B%22path%22%3A%22%2Fhome%2Fkenshin%2FGithub%2FKiroRouter%2F.env%22%2C%22ref%22%3A%22%22%7D
+2026-06-16 22:46:53.861 [info] > git config --get commit.template [5ms]
+2026-06-16 22:46:53.863 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2026-06-16 22:46:53.867 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/kenshin/Github/KiroRouter/.git/refs/remotes/origin/main'
+2026-06-16 22:46:53.868 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2026-06-16 22:46:53.879 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2026-06-16 22:46:53.886 [info] > git status -z -uall [14ms]
+2026-06-16 22:47:02.153 [info] > git config --get commit.template [7ms]
+2026-06-16 22:47:02.154 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2026-06-16 22:47:02.159 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/kenshin/Github/KiroRouter/.git/refs/remotes/origin/main'
+2026-06-16 22:47:02.160 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2026-06-16 22:47:02.173 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2026-06-16 22:47:02.179 [info] > git status -z -uall [13ms]
+2026-06-16 22:48:06.020 [info] > git config --get commit.template [4ms]
+2026-06-16 22:48:06.020 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [0ms]
+2026-06-16 22:48:06.024 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/kenshin/Github/KiroRouter/.git/refs/remotes/origin/main'
+2026-06-16 22:48:06.025 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2026-06-16 22:48:06.031 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2026-06-16 22:48:06.036 [info] > git status -z -uall [9ms]
+2026-06-16 22:48:11.055 [info] > git config --get commit.template [7ms]
+2026-06-16 22:48:11.056 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2026-06-16 22:48:11.061 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/kenshin/Github/KiroRouter/.git/refs/remotes/origin/main'
+2026-06-16 22:48:11.063 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2026-06-16 22:48:11.075 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2026-06-16 22:48:11.081 [info] > git status -z -uall [13ms]
+2026-06-16 22:49:15.280 [info] > git config --get commit.template [7ms]
+2026-06-16 22:49:15.281 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2026-06-16 22:49:15.286 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/kenshin/Github/KiroRouter/.git/refs/remotes/origin/main'
+2026-06-16 22:49:15.289 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2026-06-16 22:49:15.300 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2026-06-16 22:49:15.307 [info] > git status -z -uall [14ms]
+2026-06-16 22:50:30.049 [info] > git config --get --global core.excludesfile [31ms]
+2026-06-16 22:50:30.049 [warning] [Git][config] git config failed: Failed to execute git
+2026-06-16 22:51:29.746 [info] > git config --get commit.template [4ms]
+2026-06-16 22:51:29.747 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2026-06-16 22:51:29.751 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/kenshin/Github/KiroRouter/.git/refs/remotes/origin/main'
+2026-06-16 22:51:29.752 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2026-06-16 22:51:29.764 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2026-06-16 22:51:29.772 [info] > git status -z -uall [16ms]

@@ -1,0 +1,76 @@
+2026-06-16 22:19:16.717 [info] Extension host with pid 10567 started
+2026-06-16 22:19:16.722 [info] Eager extensions activated
+2026-06-16 22:19:16.845 [info] Extension host with pid 10600 started
+2026-06-16 22:19:16.852 [info] ExtensionService#_doActivateExtension kiro.kiroAgent, startup: false, activationEvent: 'onCommand:kiroAgent.onboarding.checkSteps'
+2026-06-16 22:19:17.619 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: false, activationEvent: '*', root cause: vscode.git
+2026-06-16 22:19:17.729 [error] MISSING_TOKEN: No valid token found
+	at AuthProvider.getTokenData (/opt/Kiro/resources/app/extensions/kiro.kiro-agent/dist/extension.js:596094:19)
+	at async AuthProvider.getProfileArn (/opt/Kiro/resources/app/extensions/kiro.kiro-agent/dist/extension.js:596077:23)
+	at async resolveProfileArn (/opt/Kiro/resources/app/extensions/kiro.kiro-agent/dist/extension.js:595496:22)
+	at async /opt/Kiro/resources/app/extensions/kiro.kiro-agent/dist/extension.js:779849:28 kiro.usageLimits.getUsageLimits {"value":"kiro.kiroAgent","_lower":"kiro.kiroagent"}
+2026-06-16 22:19:17.735 [warning] INVALID decoration from extension 'kiro.kiroAgent': Error: The decoration is empty
+2026-06-16 22:19:17.735 [warning] INVALID decoration from extension 'kiro.kiroAgent': Error: The decoration is empty
+2026-06-16 22:19:17.753 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: '*'
+2026-06-16 22:19:17.777 [info] ExtensionService#_doActivateExtension vscode.github, startup: false, activationEvent: '*'
+2026-06-16 22:19:17.783 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-06-16 22:19:17.856 [info] Eager extensions activated
+2026-06-16 22:19:17.857 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-06-16 22:19:17.858 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-06-16 22:37:49.999 [info] Extension host terminating: renderer closed the MessagePort
+2026-06-16 22:37:50.005 [info] Extension host terminating: renderer closed the MessagePort
+2026-06-16 22:37:50.005 [info] Extension host with pid 10567 exiting with code 0
+2026-06-16 22:37:50.008 [info] Extension host with pid 10600 exiting with code 0
+2026-06-16 22:37:50.666 [info] Extension host with pid 15885 started
+2026-06-16 22:37:50.666 [info] Skipping acquiring lock for /home/kenshin/.config/Kiro/User/workspaceStorage/79c3f509b07c56a432efdb0809dc836d.
+2026-06-16 22:37:50.673 [info] Eager extensions activated
+2026-06-16 22:37:50.874 [info] Extension host with pid 15907 started
+2026-06-16 22:37:50.874 [info] Skipping acquiring lock for /home/kenshin/.config/Kiro/User/workspaceStorage/79c3f509b07c56a432efdb0809dc836d.
+2026-06-16 22:37:50.880 [info] ExtensionService#_doActivateExtension kiro.kiroAgent, startup: false, activationEvent: 'onCommand:kiroAgent.executions.getExecutionHistory'
+2026-06-16 22:37:51.652 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: false, activationEvent: '*'
+2026-06-16 22:37:51.690 [warning] INVALID decoration from extension 'kiro.kiroAgent': Error: The decoration is empty
+2026-06-16 22:37:51.690 [warning] INVALID decoration from extension 'kiro.kiroAgent': Error: The decoration is empty
+2026-06-16 22:37:51.690 [warning] INVALID decoration from extension 'kiro.kiroAgent': Error: The decoration is empty
+2026-06-16 22:37:51.690 [warning] INVALID decoration from extension 'kiro.kiroAgent': Error: The decoration is empty
+2026-06-16 22:37:51.690 [warning] INVALID decoration from extension 'kiro.kiroAgent': Error: The decoration is empty
+2026-06-16 22:37:51.690 [warning] INVALID decoration from extension 'kiro.kiroAgent': Error: The decoration is empty
+2026-06-16 22:37:51.690 [warning] INVALID decoration from extension 'kiro.kiroAgent': Error: The decoration is empty
+2026-06-16 22:37:51.690 [warning] INVALID decoration from extension 'kiro.kiroAgent': Error: The decoration is empty
+2026-06-16 22:37:51.690 [warning] INVALID decoration from extension 'kiro.kiroAgent': Error: The decoration is empty
+2026-06-16 22:37:51.690 [warning] INVALID decoration from extension 'kiro.kiroAgent': Error: The decoration is empty
+2026-06-16 22:37:51.690 [warning] INVALID decoration from extension 'kiro.kiroAgent': Error: The decoration is empty
+2026-06-16 22:37:51.690 [warning] INVALID decoration from extension 'kiro.kiroAgent': Error: The decoration is empty
+2026-06-16 22:37:51.690 [warning] INVALID decoration from extension 'kiro.kiroAgent': Error: The decoration is empty
+2026-06-16 22:37:51.690 [warning] INVALID decoration from extension 'kiro.kiroAgent': Error: The decoration is empty
+2026-06-16 22:37:51.690 [warning] INVALID decoration from extension 'kiro.kiroAgent': Error: The decoration is empty
+2026-06-16 22:37:51.690 [warning] INVALID decoration from extension 'kiro.kiroAgent': Error: The decoration is empty
+2026-06-16 22:37:51.690 [warning] INVALID decoration from extension 'kiro.kiroAgent': Error: The decoration is empty
+2026-06-16 22:37:51.690 [warning] INVALID decoration from extension 'kiro.kiroAgent': Error: The decoration is empty
+2026-06-16 22:37:51.690 [warning] INVALID decoration from extension 'kiro.kiroAgent': Error: The decoration is empty
+2026-06-16 22:37:51.690 [warning] INVALID decoration from extension 'kiro.kiroAgent': Error: The decoration is empty
+2026-06-16 22:37:51.690 [warning] INVALID decoration from extension 'kiro.kiroAgent': Error: The decoration is empty
+2026-06-16 22:37:51.690 [warning] INVALID decoration from extension 'kiro.kiroAgent': Error: The decoration is empty
+2026-06-16 22:37:51.690 [warning] INVALID decoration from extension 'kiro.kiroAgent': Error: The decoration is empty
+2026-06-16 22:37:51.690 [warning] INVALID decoration from extension 'kiro.kiroAgent': Error: The decoration is empty
+2026-06-16 22:37:51.707 [info] ExtensionService#_doActivateExtension vscode.github, startup: false, activationEvent: '*'
+2026-06-16 22:37:51.709 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-06-16 22:37:51.859 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: '*'
+2026-06-16 22:37:51.922 [info] Eager extensions activated
+2026-06-16 22:37:51.924 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-06-16 22:37:51.925 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-06-16 22:37:52.040 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-06-16 22:38:01.874 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-06-16 22:38:01.882 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-06-16 22:38:01.908 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-06-16 22:40:34.128 [warning] INVALID decoration from extension 'kiro.kiroAgent': Error: The decoration is empty
+2026-06-16 22:40:34.145 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+2026-06-16 22:40:34.153 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+2026-06-16 22:40:34.395 [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+2026-06-16 22:42:11.434 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalShellIntegration:*'
+2026-06-16 22:43:05.966 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onLanguage:json'
+2026-06-16 22:43:57.259 [warning] INVALID decoration from extension 'kiro.kiroAgent': Error: The decoration is empty
+2026-06-16 22:46:43.525 [warning] INVALID decoration from extension 'kiro.kiroAgent': Error: The decoration is empty
+2026-06-16 22:46:43.620 [warning] INVALID decoration from extension 'kiro.kiroAgent': Error: The decoration is empty
+2026-06-16 23:00:43.508 [info] Extension host terminating: renderer closed the MessagePort
+2026-06-16 23:00:43.525 [info] Extension host with pid 15907 exiting with code 0
+2026-06-16 23:00:43.528 [info] Extension host terminating: renderer closed the MessagePort
+2026-06-16 23:00:43.529 [info] Extension host with pid 15885 exiting with code 0

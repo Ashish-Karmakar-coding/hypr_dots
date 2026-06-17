@@ -1,0 +1,26 @@
+{
+  "executions": [
+    {
+      "executionId": "c78ea5b3-5e49-4ab0-8b2c-22f5534bb38d",
+      "type": "chat-agent",
+      "status": "aborted",
+      "startTime": 1781629814439,
+      "endTime": 1781630299172
+    },
+    {
+      "executionId": "2dddfe0c-4232-46e5-bbee-7033bc5beef0",
+      "type": "chat-agent",
+      "status": "aborted",
+      "startTime": 1781630306022,
+      "endTime": 1781630398529
+    },
+    {
+      "executionId": "33dc070c-def7-48bd-b152-36b5218a1411",
+      "type": "chat-agent",
+      "status": "aborted",
+      "startTime": 1781630417696,
+      "endTime": 1781630635288
+    }
+  ],
+  "version": "2.0.0"
+}

@@ -1,0 +1,5 @@
+provider=Enterprise
+authMethod=IdC
+region=us-east-1
+has_clientIdHash=True
+env_PROFILE_ARN_set=False

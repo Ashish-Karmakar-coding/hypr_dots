@@ -1,0 +1,9 @@
+{
+    "kiroAgent.agentAutonomy": "Supervised",
+    "kiroAgent.modelSelection": "claude-opus-4.8",
+    "kiroAgent.trustedCommands": [
+        "python3 *",
+        "wc *",
+        "ls *"
+    ]
+}

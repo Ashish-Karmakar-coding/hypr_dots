@@ -1,0 +1,9 @@
+{
+    "explorer.confirmDragAndDrop": false,
+    "js/ts.updateImportsOnFileMove.enabled": "always",
+    "git.openRepositoryInParentFolders": "never",
+    "explorer.confirmDelete": false,
+    "claudeCode.preferredLocation": "panel",
+    "claudeCode.useTerminal": true,
+    "terminal.integrated.mouseWheelScrollSensitivity": 3
+}

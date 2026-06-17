@@ -1,0 +1,12 @@
+2026-06-16 22:19:15.374 [info] LinuxUrlHandlerManager: Starting automatic URL handler detection and registration
+2026-06-16 22:19:15.452 [info] [WebviewProcessMonitor] Service starting
+2026-06-16 22:19:15.457 [info] update#setState idle
+2026-06-16 22:19:15.460 [info] LinuxUrlHandlerDetector: Handler detected via system desktop file
+2026-06-16 22:19:15.460 [info] LinuxUrlHandlerManager: Existing URL handler detected, skipping registration
+2026-06-16 22:19:45.458 [info] update#setState checking for updates
+2026-06-16 22:19:46.396 [info] update#setState idle
+2026-06-16 22:37:50.006 [info] Extension host with pid 10567 exited with code: 0, signal: unknown.
+2026-06-16 22:37:50.008 [info] Extension host with pid 10600 exited with code: 0, signal: unknown.
+2026-06-16 22:37:55.542 [info] [WebviewProcessMonitor] Tracking webview renderer: pid=16044, origin=vscode-webview://1898rgcevfasdvuphk2ub2jcljaee3d7drkudqmrrqbbao086cju, windowId=1 (total tracked processes: 1)
+2026-06-16 23:00:43.525 [info] Extension host with pid 15907 exited with code: 0, signal: unknown.
+2026-06-16 23:00:43.529 [info] Extension host with pid 15885 exited with code: 0, signal: unknown.

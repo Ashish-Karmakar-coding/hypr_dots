@@ -1,0 +1,111 @@
+==========================================================================
+==========================================================================
+##### Completion options #####
+{
+  "contextLength": 40000,
+  "model": "agent",
+  "maxTokens": 4000,
+  "preserveContinuationId": false
+}
+
+##### Request options #####
+{}
+
+##### Prompt #####
+<user>
+I already have a claude.md 
+This project upon using on claude showing me 
+API Error: 400 profileArn is required for this request
+The "API Error: 400 profileArn is required for this request" error typically occurs when using the Kiro IDE or Kiro CLI (often integrated with AWS IAM Identity Center or AWS Bedrock) and indicates that your active session is missing a valid Amazon Resource Name (ARN) configuration for your user profile. [1, 2, 3]
+Common Root Causes
+Stale or Corrupt Auth Session: A cached token has broken or a recent application update caused a schema mismatch.
+IAM Identity Center Misconfiguration: Your user/group assignment hasn't propagated or the status is stuck in "Pending" within AWS.
+Google/Social Login Bug: Known authentication handling bugs on specific CLI versions when skipping AWS Builder IDs
+Is there any way to fix this error here or it is other service issue
+
+==========================================================================
+==========================================================================
+Completion:
+
+
+
+==========================================================================
+==========================================================================
+##### Completion options #####
+{
+  "contextLength": 40000,
+  "model": "agent",
+  "maxTokens": 4000,
+  "preserveContinuationId": false
+}
+
+##### Request options #####
+{}
+
+##### Prompt #####
+<user>
+I already have a claude.md 
+This project upon using on claude showing me 
+API Error: 400 profileArn is required for this request
+The "API Error: 400 profileArn is required for this request" error typically occurs when using the Kiro IDE or Kiro CLI (often integrated with AWS IAM Identity Center or AWS Bedrock) and indicates that your active session is missing a valid Amazon Resource Name (ARN) configuration for your user profile. [1, 2, 3]
+Common Root Causes
+Stale or Corrupt Auth Session: A cached token has broken or a recent application update caused a schema mismatch.
+IAM Identity Center Misconfiguration: Your user/group assignment hasn't propagated or the status is stuck in "Pending" within AWS.
+Google/Social Login Bug: Known authentication handling bugs on specific CLI versions when skipping AWS Builder IDs
+Is there any way to fix this error here or it is other service issue
+
+<assistant>
+
+
+<user>
+HTTP 400 - POST /v1/messages - Improperly formed request. (reason: REQUEST_BODY_INVALID)
+
+==========================================================================
+==========================================================================
+Completion:
+
+
+
+==========================================================================
+==========================================================================
+##### Completion options #####
+{
+  "contextLength": 40000,
+  "model": "agent",
+  "maxTokens": 4000,
+  "preserveContinuationId": false
+}
+
+##### Request options #####
+{}
+
+##### Prompt #####
+<user>
+I already have a claude.md 
+This project upon using on claude showing me 
+API Error: 400 profileArn is required for this request
+The "API Error: 400 profileArn is required for this request" error typically occurs when using the Kiro IDE or Kiro CLI (often integrated with AWS IAM Identity Center or AWS Bedrock) and indicates that your active session is missing a valid Amazon Resource Name (ARN) configuration for your user profile. [1, 2, 3]
+Common Root Causes
+Stale or Corrupt Auth Session: A cached token has broken or a recent application update caused a schema mismatch.
+IAM Identity Center Misconfiguration: Your user/group assignment hasn't propagated or the status is stuck in "Pending" within AWS.
+Google/Social Login Bug: Known authentication handling bugs on specific CLI versions when skipping AWS Builder IDs
+Is there any way to fix this error here or it is other service issue
+
+<assistant>
+
+
+<user>
+HTTP 400 - POST /v1/messages - Improperly formed request. (reason: REQUEST_BODY_INVALID)
+
+<assistant>
+
+
+<user>
+HTTP 400 - POST /v1/messages - Improperly formed request. (reason: REQUEST_BODY_INVALID)
+
+==========================================================================
+==========================================================================
+Completion:
+
+
+

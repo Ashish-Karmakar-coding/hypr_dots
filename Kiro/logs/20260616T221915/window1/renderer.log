@@ -1,0 +1,16 @@
+2026-06-16 22:19:16.341 [info] Started local extension host with pid 10567.
+2026-06-16 22:19:16.360 [info] Started initializing default profile extensions in extensions installation folder. file:///home/kenshin/.kiro/extensions
+2026-06-16 22:19:16.432 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/kenshin/.kiro/extensions
+2026-06-16 22:19:16.440 [info] Isolating 'kiro.kiroagent' with built-in extensions in a dedicated extension host.
+2026-06-16 22:19:16.440 [info] Placing extension(s) vscode.configuration-editing, vscode.css-language-features, vscode.debug-auto-launch, vscode.debug-server-ready, vscode.emmet, vscode.extension-editing, vscode.git, vscode.git-base, vscode.github, vscode.github-authentication, vscode.grunt, vscode.gulp, vscode.html-language-features, vscode.ipynb, vscode.jake, vscode.json-language-features, kiro.kiroAgent, vscode.markdown-language-features, vscode.markdown-math, bierner.markdown-mermaid, vscode.media-preview, vscode.merge-conflict, vscode.mermaid-chat-features, vscode.microsoft-authentication, ms-vscode.js-debug, ms-vscode.js-debug-companion, ms-vscode.vscode-js-profile-table, vscode.npm, vscode.php-language-features, vscode.references-view, vscode.search-result, vscode.simple-browser, vscode.terminal-suggest, vscode.tunnel-forwarding, vscode.typescript-language-features on a separate extension host.
+2026-06-16 22:19:16.535 [info] Started local extension host with pid 10600.
+2026-06-16 22:19:16.622 [info] ChatSessionStore: Migrating 0 chat sessions from storage service to file system
+2026-06-16 22:19:19.351 [info] [perf] Render performance baseline is 18ms
+2026-06-16 22:37:50.341 [info] Started local extension host with pid 15885.
+2026-06-16 22:37:50.373 [info] ChatSessionStore: Migrating 0 chat sessions from storage service to file system
+2026-06-16 22:37:50.456 [info] Isolating 'kiro.kiroagent' with built-in extensions in a dedicated extension host.
+2026-06-16 22:37:50.456 [info] Placing extension(s) vscode.configuration-editing, vscode.css-language-features, vscode.debug-auto-launch, vscode.debug-server-ready, vscode.emmet, vscode.extension-editing, vscode.git-base, vscode.github, vscode.github-authentication, vscode.grunt, vscode.gulp, vscode.html-language-features, vscode.ipynb, vscode.jake, vscode.json-language-features, kiro.kiroAgent, vscode.markdown-language-features, vscode.markdown-math, vscode.media-preview, vscode.merge-conflict, vscode.mermaid-chat-features, vscode.microsoft-authentication, ms-vscode.js-debug, ms-vscode.js-debug-companion, ms-vscode.vscode-js-profile-table, vscode.npm, vscode.php-language-features, vscode.references-view, vscode.search-result, vscode.simple-browser, vscode.tunnel-forwarding, vscode.typescript-language-features on a separate extension host.
+2026-06-16 22:37:50.538 [info] Started local extension host with pid 15907.
+2026-06-16 22:37:53.173 [info] [perf] Render performance baseline is 23ms
+2026-06-16 22:40:34.386 [error] [Extension Host] (node:15907) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)

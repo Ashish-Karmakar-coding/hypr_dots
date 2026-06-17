@@ -18,7 +18,7 @@ yay/
 # ==========================================
 # These files record things like recent files, volume levels, or binary databases.
 dconf/
-kwalletrc
+kwalletrctopics/kitty-config
 pavucontrol.ini
 pulse/
 QtProject.conf

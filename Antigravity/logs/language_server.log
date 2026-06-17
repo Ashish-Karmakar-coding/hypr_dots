@@ -1,639 +1,160 @@
-I0613 12:42:17.357295  4178 server.go:1293] Starting language server process with pid 4178
-I0613 12:42:17.358019  4178 server.go:330] Setting GOMAXPROCS to 4
-I0613 12:42:17.358749  4178 server.go:473] Language server will attempt to listen on host localhost
-I0613 12:42:17.360905  4178 server.go:487] Language server listening on random port at 39671 for HTTPS (gRPC)
-I0613 12:42:17.361137  4178 server.go:494] Language server listening on random port at 43677 for HTTP
-W0613 12:42:18.417479  4178 auth_client.go:369] Failed to load token from keyring: The name is not activatable
-E0613 12:42:18.417922  4178 auth_client.go:530] No auth token found
-W0613 12:42:18.426586  4178 launchmanager.go:68] Entering local chrome mode! This is WRONG unless you are running tests or in eval mode on Linux.
-E0613 12:42:18.433079  4178 log.go:398] Failed to poll ListExperiments: error getting token source: You are not logged into Antigravity.
-W0613 12:42:18.434719  4178 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
-W0613 12:42:18.434753  4178 log_context.go:117] Cache(availableModels): Singleflight refresh failed: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
-E0613 12:42:18.434806  4178 log.go:398] Failed to poll FetchAvailableModels: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
-I0613 12:42:18.435545  4178 server.go:2234] Auth succeeded, refreshing features and managers
-E0613 12:42:18.435693  4178 log.go:398] Failed to poll ListExperiments: error getting token source: You are not logged into Antigravity.
-W0613 12:42:18.436194  4178 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
-W0613 12:42:18.436223  4178 log_context.go:117] Cache(availableModels): Singleflight refresh failed: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
-E0613 12:42:18.436280  4178 log.go:398] Failed to poll FetchAvailableModels: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
-I0613 12:42:18.436806  4178 server.go:2240] State refresh took 1ms
-I0613 12:42:18.436865  4178 server.go:2245] Retroactive projects migration enabled: false
-I0613 12:42:18.436887  4178 projects_migration.go:447] Projects migration already started or completed, skipping
-I0613 12:42:18.480594  4178 server.go:1111] Serving UI bundle from embedded assets
-I0613 12:42:18.486406  4178 server.go:1898] initialized server successfully in 1.128629069s
-W0613 12:42:18.489891  4178 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
-W0613 12:42:18.489941  4178 log_context.go:117] Cache(userInfo): Singleflight refresh failed: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
-E0613 12:42:18.490741  4178 server.go:601] Failed to get OAuth token: error getting token source from auth provider: You are not logged into Antigravity.
-W0613 12:42:18.490788  4178 client.go:81] failed to set auth token
-E0613 12:42:20.543636  4178 interceptor.go:74] /exa.language_server_pb.LanguageServerService/GetCascadeNuxes (unknown): error getting token source: You are not logged into Antigravity.
-W0613 12:42:20.545447  4178 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
-W0613 12:42:20.545476  4178 log_context.go:117] Cache(userInfo): Singleflight refresh failed: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
-E0613 12:42:20.545507  4178 interceptor.go:74] /exa.language_server_pb.LanguageServerService/GetUserStatus (unknown): GetCascadeModelConfigData() is nil
-W0613 12:42:23.170539  4178 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
-W0613 12:42:23.170567  4178 log_context.go:117] Cache(userInfo): Singleflight refresh failed: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
-E0613 12:42:23.170586  4178 server.go:601] Failed to get OAuth token: error getting token source from auth provider: You are not logged into Antigravity.
-W0613 12:42:23.170597  4178 client.go:81] failed to set auth token
-W0613 12:42:25.557874  4178 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
-W0613 12:42:25.557930  4178 log_context.go:117] Cache(userInfo): Singleflight refresh failed: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
-E0613 12:42:25.557978  4178 interceptor.go:74] /exa.language_server_pb.LanguageServerService/GetUserStatus (unknown): GetCascadeModelConfigData() is nil
-W0613 12:42:48.418753  4178 auth_client.go:109] No token found in background token refresh loop
-I0613 12:42:56.500563  4178 http_helpers.go:182] URL: https://cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xcb75aec4b0e0b5cb
-I0613 12:43:00.188534  4178 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x917058682e4be78a
-I0613 12:43:02.644470  4178 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xd6b8d5e9eb030f30
-W0613 12:43:02.647859  4178 auth_client.go:332] Failed to persist token to keyring: The name is not activatable
-I0613 12:43:02.648025  4178 server.go:2234] Auth succeeded, refreshing features and managers
-I0613 12:43:06.228384  4178 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xdb70b5bf818bc132
-I0613 12:43:08.583360  4178 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x6cb052ac5bbcc7b5
-I0613 12:43:08.585378  4178 server.go:2240] State refresh took 5937ms
-I0613 12:43:08.589046  4178 server.go:2245] Retroactive projects migration enabled: true
-I0613 12:43:08.589335  4178 projects_migration.go:447] Projects migration already started or completed, skipping
-W0613 12:43:18.422258  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 12:43:48.420257  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 12:44:18.419561  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 12:44:48.419692  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 12:45:18.419970  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 12:45:48.419606  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 12:46:18.419975  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 12:46:48.419892  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 12:47:18.419434  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 12:47:48.419036  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 12:48:18.419820  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-I0613 12:48:21.097838  4178 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x82bf326af2357cc2
-I0613 12:48:23.145983  4178 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xd6212e5b6e35bd96
-W0613 12:48:48.420084  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 12:49:18.419654  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 12:49:48.419597  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 12:50:18.420001  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 12:50:48.420050  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 12:51:18.419441  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 12:51:48.419614  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 12:52:18.419385  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 12:52:48.419503  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 12:53:18.419980  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 12:53:48.420037  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 12:54:18.419897  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-I0613 12:54:20.756729  4178 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x2a82fffcb19ab3f6
-I0613 12:54:22.551955  4178 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x3207f95532adffa3
-W0613 12:54:48.419554  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 12:55:18.419619  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 12:55:48.419971  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 12:56:18.419128  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 12:56:48.420259  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 12:57:18.419266  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 12:57:48.420092  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 12:58:18.419484  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 12:58:48.419817  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 12:59:18.419443  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 12:59:48.419595  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 13:00:18.419599  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-I0613 13:00:20.523316  4178 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xb5b4226da27c3271
-I0613 13:00:22.806683  4178 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x2d27ed6dc8ef11b8
-W0613 13:00:48.418857  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 13:01:18.419758  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 13:01:48.419602  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 13:02:18.419402  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 13:02:48.419009  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 13:03:18.419649  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 13:03:48.419575  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 13:04:18.419296  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 13:04:48.419286  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 13:05:18.419206  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 13:05:48.419074  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 13:06:18.418957  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-I0613 13:06:20.472479  4178 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x139862e7af00627f
-I0613 13:06:22.205047  4178 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xb73b3001ae7811d9
-W0613 13:06:48.419617  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 13:07:18.421360  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 13:07:48.419435  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 13:08:18.420164  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 13:08:48.419347  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 13:09:18.419418  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 13:09:48.418904  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 13:10:18.419262  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 13:10:48.420396  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 13:11:18.419328  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 13:11:48.419361  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 13:12:18.419233  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-I0613 13:12:20.758369  4178 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xe9df0ef48db75660
-I0613 13:12:22.523210  4178 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xc3bea22ddc9e4339
-W0613 13:12:48.419494  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 13:13:18.423304  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 13:13:48.419453  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 13:14:18.419602  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 13:14:48.419362  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 13:15:18.419005  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 13:15:48.419225  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 13:16:18.419837  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 13:16:48.418926  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 13:17:18.419375  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 13:17:48.418856  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 13:18:18.419899  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-I0613 13:18:20.619237  4178 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x23d015b40d2d9fc0
-I0613 13:18:22.258278  4178 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xfdc5f201be718dcb
-W0613 13:18:48.419276  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 13:19:18.419132  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 13:19:48.419472  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 13:20:18.419693  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 13:20:48.419420  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 13:21:18.419738  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 13:21:48.422496  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 13:22:18.419457  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 13:22:48.419329  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 13:23:18.419110  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 13:23:48.419571  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 13:24:18.418925  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-I0613 13:24:21.061333  4178 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xc097b0a6ff7bb411
-I0613 13:24:22.804961  4178 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x42b87e46e09aeaca
-W0613 13:24:48.418669  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 13:25:18.420863  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 13:25:48.419229  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 13:26:18.419285  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 13:26:48.419709  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 13:27:18.419360  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 13:27:48.419387  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 13:28:18.419677  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 13:28:48.419491  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 13:29:18.419086  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 13:29:48.419462  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 13:30:18.419291  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-I0613 13:30:20.756540  4178 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x6872cbd82758ef20
-I0613 13:30:22.523472  4178 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x4f07589531aee200
-W0613 13:30:48.419632  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 13:31:18.419083  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 13:31:48.419776  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 13:32:18.419798  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 13:32:48.419388  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 13:33:18.419377  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 13:33:48.419510  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 13:34:18.419820  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 13:34:48.419490  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 13:35:18.419192  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 13:35:48.419387  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 13:36:18.419828  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-I0613 13:36:20.756940  4178 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x765d8f803b6b7917
-I0613 13:36:22.548440  4178 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xdd751bab632ed59
-W0613 13:36:48.419894  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 13:37:18.418941  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 13:37:48.419633  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 13:38:18.419030  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 13:38:48.419492  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 13:39:18.419174  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 13:39:48.419553  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 13:40:18.419220  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 13:40:48.420204  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 13:41:18.419095  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 13:41:48.419359  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 13:42:18.419423  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-I0613 13:42:20.320290  4178 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x9d02e012ddf58fa0
-I0613 13:42:23.187109  4178 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xdefaa11d89e8b741
-W0613 13:42:48.419389  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 13:43:18.419468  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 13:43:48.419200  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 13:44:18.418910  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 13:44:48.419402  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 13:45:18.419382  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 13:45:48.419418  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 13:46:18.419295  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 13:46:48.419048  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 13:47:18.419356  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 13:47:48.420339  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 13:48:18.418988  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-I0613 13:48:21.030640  4178 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x587ec1455244b1cd
-I0613 13:48:23.386254  4178 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x719423b1c2524939
-W0613 13:48:48.419282  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 13:49:18.419342  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 13:49:48.419566  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 13:50:18.419240  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 13:50:48.418782  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 13:51:18.419572  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 13:51:48.419575  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 13:52:18.419022  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 13:52:48.419441  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 13:53:18.419328  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 13:53:48.419396  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 13:54:18.418917  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-I0613 13:54:22.133492  4178 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xbab643d4798cfe90
-I0613 13:54:23.157563  4178 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x37d562edfca75979
-W0613 13:54:48.419432  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 13:55:18.419747  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 13:55:48.419631  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 13:56:18.419223  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 13:56:48.419369  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 13:57:18.419075  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 13:57:48.419622  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 13:58:18.419421  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 13:58:48.419040  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 13:59:18.419870  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 13:59:48.419844  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 14:00:18.419153  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-I0613 14:00:21.576781  4178 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x472fe774d82c627b
-I0613 14:00:22.396073  4178 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x6938e544a06a4b34
-W0613 14:00:48.419392  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 14:01:18.419380  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 14:01:48.419587  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 14:02:18.420511  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 14:02:48.419150  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 14:03:18.419762  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 14:03:48.419652  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 14:04:18.419027  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 14:04:48.419431  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 14:05:18.419018  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 14:05:48.418992  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 14:06:18.419245  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-I0613 14:06:21.828832  4178 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x9759f6928edc9a6e
-I0613 14:06:22.647886  4178 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xab6f9f78685a4dbf
-W0613 14:06:48.419510  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 14:07:18.419574  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 14:07:48.419827  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 14:08:18.419692  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 14:08:48.419269  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 14:09:18.419234  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 14:09:48.419169  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 14:10:18.419993  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 14:10:48.419524  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 14:11:18.420917  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 14:11:48.419252  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 14:12:18.419571  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-I0613 14:12:21.535730  4178 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xbe8aed65f1f5da6d
-I0613 14:12:22.471321  4178 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x3f4abc2f9421b471
-W0613 14:12:48.419311  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 14:13:18.419249  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 14:13:48.419460  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 14:14:18.419916  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 14:14:48.419309  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 14:15:18.419485  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 14:15:48.419600  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 14:16:18.419480  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 14:16:48.419244  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 14:17:18.419410  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 14:17:48.419749  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 14:18:18.419479  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-I0613 14:18:21.498081  4178 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x70bc0a27a27cd459
-I0613 14:18:21.907422  4178 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x579a161b46dc24e0
-W0613 14:18:48.420919  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 14:19:18.419421  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 14:19:48.419807  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 14:20:18.418886  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 14:20:48.418752  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 14:21:18.418889  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 14:21:48.419579  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 14:22:18.419372  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 14:22:48.418656  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 14:23:18.419531  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 14:23:48.419507  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 14:24:18.419322  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-I0613 14:24:21.584992  4178 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x3b023be91b415852
-I0613 14:24:22.170950  4178 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x2264d08e768c7e40
-W0613 14:24:48.419698  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 14:25:18.418967  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 14:25:48.419407  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 14:26:18.419417  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 14:26:48.419304  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 14:27:18.419628  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 14:27:48.419722  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 14:28:18.419000  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 14:28:48.419283  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 14:29:18.419400  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 14:29:48.419458  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 14:30:18.419278  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-I0613 14:30:21.762618  4178 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x83c5eb2234032e12
-I0613 14:30:23.811230  4178 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x16cb04e2e3ccc3f9
-W0613 14:30:48.419945  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 14:31:18.419703  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 14:31:48.419854  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 14:32:18.419316  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 14:32:48.419318  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 14:33:18.419217  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 14:33:48.419713  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 14:34:18.419113  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 14:34:48.419401  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 14:35:18.419827  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 14:35:48.419388  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 14:36:18.419622  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-I0613 14:36:21.796267  4178 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x69257308034678f8
-I0613 14:36:22.805030  4178 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xae0cca75d60a5c2a
-W0613 14:36:48.419466  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 14:37:18.419401  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 14:37:48.419959  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 14:38:18.419437  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 14:38:48.420032  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 14:39:18.419394  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 14:39:48.419846  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 14:40:18.419415  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 14:40:48.419577  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 14:41:18.419276  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 14:41:48.419664  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 14:42:18.419369  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-I0613 14:42:22.034802  4178 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xc1fa2fa9ce75ca21
-I0613 14:42:22.751666  4178 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x4b8d24069ba56d23
-W0613 14:42:48.419248  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 14:43:18.419597  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 14:43:48.419929  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 14:44:18.418927  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 14:44:48.419593  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 14:45:18.419894  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 14:45:48.419199  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 14:46:18.419831  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 14:46:48.419240  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 14:47:18.419388  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 14:47:48.420041  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 14:48:18.419371  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-I0613 14:48:21.659623  4178 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xd0cf08b9c76cf625
-I0613 14:48:22.479046  4178 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x9b22364b44291961
-W0613 14:48:48.419265  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 14:49:18.419261  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 14:49:48.419681  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 14:50:18.419926  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 14:50:48.419327  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 14:51:18.419873  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 14:51:48.420071  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 14:52:18.419200  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 14:52:48.419853  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 14:53:18.419624  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 14:53:48.419834  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 14:54:18.419391  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-I0613 14:54:22.329131  4178 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xf3c18fb6fb22d6eb
-I0613 14:54:22.533775  4178 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x250deec73f4b7f9d
-W0613 14:54:48.419496  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 14:55:18.419085  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 14:55:48.419547  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 14:56:18.419143  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 14:56:48.419643  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 14:57:18.419422  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 14:57:48.419479  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 14:58:18.419965  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 14:58:48.419777  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 14:59:18.419136  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 14:59:48.419197  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 15:00:18.419464  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-I0613 15:00:22.088923  4178 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x932a392a25ea8b2
-I0613 15:00:23.727798  4178 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xff6d572a190a0146
-W0613 15:00:48.420001  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 15:01:18.419618  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 15:01:48.419059  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 15:02:18.419390  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 15:02:48.419305  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 15:03:18.419645  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 15:03:48.419917  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 15:04:18.419440  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 15:04:48.419764  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 15:05:18.419494  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 15:05:48.419315  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 15:06:18.419372  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-I0613 15:06:21.529285  4178 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xed2bb9316e599431
-I0613 15:06:23.167213  4178 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x96b5152220e266dc
-W0613 15:06:48.419973  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 15:07:18.419898  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 15:07:48.419286  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 15:08:18.419302  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 15:08:48.419630  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 15:09:18.419829  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 15:09:48.419438  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 15:10:18.419501  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 15:10:48.419737  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 15:11:18.419478  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 15:11:48.418934  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 15:12:18.419638  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-I0613 15:12:21.371614  4178 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x22f67c403e7d0a66
-I0613 15:12:23.214743  4178 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x41606ac54c38bdc2
-W0613 15:12:48.418818  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 15:13:18.419325  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 15:13:48.419572  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 15:14:18.418986  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 15:14:48.419315  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 15:15:18.419510  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 15:15:48.419700  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 15:16:18.419369  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 15:16:48.419209  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 15:17:18.419399  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 15:17:48.419365  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 15:18:18.418807  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-I0613 15:18:21.825079  4178 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x9016cf5ddd05b41d
-I0613 15:18:22.644469  4178 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xa33ba5c74347671d
-W0613 15:18:48.419877  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 15:19:18.419246  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 15:19:48.419283  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 15:20:18.420071  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 15:20:48.419242  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 15:21:18.420183  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 15:21:48.419506  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 15:22:18.419082  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 15:22:48.418952  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 15:23:18.420480  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 15:23:48.419483  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 15:24:18.419502  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-I0613 15:24:21.457594  4178 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xae685b23bb694837
-I0613 15:24:23.505738  4178 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x74fd4dce250aff6d
-W0613 15:24:48.418934  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 15:25:18.419795  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 15:25:48.418900  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 15:26:18.419121  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 15:26:48.419176  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 15:27:18.418946  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 15:27:48.418944  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 15:28:18.419484  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 15:28:48.419416  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 15:29:18.420211  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 15:29:48.419444  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 15:30:18.419363  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-I0613 15:30:20.969021  4178 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xa67e4b88538e0f7b
-I0613 15:30:21.992922  4178 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x956d4bbc83f8225
-W0613 15:30:48.420608  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 15:31:18.419085  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 15:31:48.419401  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 15:32:18.419229  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 15:32:48.419362  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 15:33:18.419794  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 15:33:48.419397  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 15:34:18.419603  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 15:34:48.418815  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 15:35:18.418845  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 15:35:48.419111  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 15:36:18.419889  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-I0613 15:36:21.813902  4178 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x99745c7963b9e7fe
-I0613 15:36:22.633117  4178 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xea694962c7801078
-W0613 15:36:48.419347  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 15:37:18.419141  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 15:37:48.419536  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 15:38:18.419106  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 15:38:48.420107  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 15:39:18.419130  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 15:39:48.419434  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 15:40:18.419473  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 15:40:48.419134  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 15:41:18.419430  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 15:41:48.419396  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 15:42:18.418679  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-I0613 15:42:21.821144  4178 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x625a0cf6a78898e3
-I0613 15:42:22.284330  4178 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xbcdf3f696d2cbcda
-W0613 15:42:48.419084  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 15:43:18.419070  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 15:43:48.419260  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 15:44:18.419670  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 15:44:48.419612  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 15:45:18.419350  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 15:45:48.418495  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 15:46:18.419417  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 15:46:48.419694  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 15:47:18.419188  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 15:47:48.419499  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 15:48:18.419487  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-I0613 15:48:21.470804  4178 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x2e554ab40befe9d2
-I0613 15:48:22.903883  4178 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xd63b17a59365857c
-W0613 15:48:48.420706  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 15:49:18.419293  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 15:49:48.419373  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 15:50:18.419488  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 15:50:48.419424  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 15:51:18.419370  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 15:51:48.420490  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 15:52:18.419910  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 15:52:48.419422  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 15:53:18.419492  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 15:53:48.419655  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 15:54:18.419147  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-I0613 15:54:21.301662  4178 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x33cb81a0a67fecb6
-I0613 15:54:23.963779  4178 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x36547a4d8a9da536
-W0613 15:54:48.419238  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 15:55:18.419338  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 15:55:48.420156  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 15:56:18.419759  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 15:56:48.419179  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 15:57:18.419221  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 15:57:48.419217  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 15:58:18.419247  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 15:58:48.419348  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 15:59:18.419264  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 15:59:48.419419  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 16:00:18.418432  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-I0613 16:00:21.338745  4178 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x278c2735c10fe412
-I0613 16:00:22.567285  4178 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xfd4d7071b18df510
-W0613 16:00:48.419432  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 16:01:18.419562  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 16:01:48.419232  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 16:02:18.420880  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 16:02:48.419532  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 16:03:18.419160  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 16:03:48.419778  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 16:04:18.420405  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 16:04:48.418850  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 16:05:18.419971  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 16:05:48.419018  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 16:06:18.420027  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-I0613 16:06:21.151981  4178 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x33e7608425969261
-I0613 16:06:22.585058  4178 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xc6196979f66b75a8
-W0613 16:06:48.419571  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 16:07:18.419315  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 16:07:48.419604  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 16:08:18.419408  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 16:08:48.419350  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 16:09:18.419414  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 16:09:48.419102  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 16:10:18.419044  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 16:10:48.419307  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 16:11:18.419593  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 16:11:48.419510  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 16:12:18.419391  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-I0613 16:12:20.821620  4178 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xb18f4ca07eade6a5
-I0613 16:12:22.805027  4178 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xf74e140f86a47677
-W0613 16:12:48.419528  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 16:13:18.419179  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 16:13:48.419049  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 16:14:18.418885  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 16:14:48.418964  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 16:15:18.418912  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 16:15:48.419611  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 16:16:18.419749  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 16:16:48.419246  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 16:17:18.419345  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 16:17:48.419370  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 16:18:18.419385  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-I0613 16:18:21.411136  4178 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x4bfce2e352fcbad1
-I0613 16:18:22.230670  4178 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x4032501e21d81dd2
-W0613 16:18:48.419599  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 16:19:18.419489  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 16:19:48.419280  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 16:20:18.419738  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 16:20:48.419816  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 16:21:18.419954  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 16:21:48.419968  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 16:22:18.419166  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 16:22:48.419456  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 16:23:18.419393  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 16:23:48.419015  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 16:24:18.419387  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-I0613 16:24:20.821018  4178 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xdb0929daa2d8bc96
-I0613 16:24:23.081743  4178 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xf18ba016d9f7f9c0
-W0613 16:24:48.419814  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 16:25:18.419474  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 16:25:48.419308  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 16:26:18.419473  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 16:26:48.421069  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 16:27:18.421633  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 16:27:48.419882  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 16:28:18.419598  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 16:28:48.419092  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 16:29:18.419486  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 16:29:48.419613  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 16:30:18.419418  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-I0613 16:30:21.680692  4178 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x70491b578f960662
-I0613 16:30:22.499941  4178 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xdb007927f72f1adb
-W0613 16:30:48.418959  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 16:31:18.418721  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 16:31:48.419852  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 16:32:18.423043  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 16:32:48.419540  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 16:33:18.420055  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 16:33:48.419273  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 16:34:18.423098  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 16:34:48.423394  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 16:35:18.418671  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 16:35:48.419731  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 16:36:18.419133  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-I0613 16:36:21.291092  4178 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xdff82eff1a64c6b9
-I0613 16:36:22.298958  4178 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x8054510dce322058
-W0613 16:36:48.419549  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 16:37:18.419067  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 16:37:48.419570  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 16:38:18.418839  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 16:38:48.419499  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 16:39:18.419306  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 16:39:48.419624  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 16:40:18.419392  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 16:40:48.419421  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 16:41:18.419606  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 16:41:48.419388  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 16:42:18.419390  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-I0613 16:42:21.565817  4178 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x4afb33e9b58c0f45
-I0613 16:42:22.897745  4178 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x3f749f81b8fc9207
-W0613 16:42:48.419361  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 16:43:18.422745  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 16:43:48.419396  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 16:44:18.421069  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 16:44:48.418923  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 16:45:18.419472  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 16:45:48.419503  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 16:46:18.419387  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 16:46:48.419562  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 16:47:18.419326  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 16:47:48.419585  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 16:48:18.419369  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-I0613 16:48:22.017765  4178 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xd8f52f30c0063554
-I0613 16:48:22.806320  4178 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x5197476a21a6a20c
-W0613 16:48:48.419633  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 16:49:18.419337  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 16:49:48.419240  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 16:50:18.419094  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 16:50:48.420039  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 16:51:18.419553  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 16:51:48.420100  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 16:52:18.420233  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 16:52:48.419084  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 16:53:18.418928  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 16:53:48.419699  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 16:54:18.419339  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-I0613 16:54:21.648736  4178 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x185d3dee74aac2cc
-I0613 16:54:23.490831  4178 http_helpers.go:182] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x3a6b988d1eeb911a
-W0613 16:54:48.419720  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-W0613 16:55:18.419129  4178 auth_client.go:106] Background token refresh failed: failed to load token: The name is not activatable
-I0613 16:55:19.241643  4178 server.go:2105] Got signal terminated, shutting down
-I0613 16:55:19.241674  4178 server.go:2146] Language server shutting down
+I0617 22:26:52.133525  3592 server.go:1293] Starting language server process with pid 3592
+I0617 22:26:52.134184  3592 server.go:330] Setting GOMAXPROCS to 4
+I0617 22:26:52.134883  3592 server.go:473] Language server will attempt to listen on host localhost
+I0617 22:26:52.136711  3592 server.go:487] Language server listening on random port at 42683 for HTTPS (gRPC)
+I0617 22:26:52.137027  3592 server.go:494] Language server listening on random port at 39479 for HTTP
+W0617 22:26:54.128611  3592 auth_client.go:369] Failed to load token from keyring: The name is not activatable
+E0617 22:26:54.128980  3592 auth_client.go:530] No auth token found
+W0617 22:26:54.137775  3592 launchmanager.go:68] Entering local chrome mode! This is WRONG unless you are running tests or in eval mode on Linux.
+E0617 22:26:54.142959  3592 log.go:398] Failed to poll ListExperiments: error getting token source: You are not logged into Antigravity.
+W0617 22:26:54.144540  3592 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+W0617 22:26:54.144577  3592 log_context.go:117] Cache(availableModels): Singleflight refresh failed: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+E0617 22:26:54.144656  3592 log.go:398] Failed to poll FetchAvailableModels: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+I0617 22:26:54.145319  3592 server.go:2234] Auth succeeded, refreshing features and managers
+E0617 22:26:54.145418  3592 log.go:398] Failed to poll ListExperiments: error getting token source: You are not logged into Antigravity.
+W0617 22:26:54.145772  3592 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+W0617 22:26:54.145789  3592 log_context.go:117] Cache(availableModels): Singleflight refresh failed: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+E0617 22:26:54.145833  3592 log.go:398] Failed to poll FetchAvailableModels: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+I0617 22:26:54.146200  3592 server.go:2240] State refresh took 0ms
+I0617 22:26:54.146242  3592 server.go:2245] Retroactive projects migration enabled: false
+I0617 22:26:54.146263  3592 projects_migration.go:447] Projects migration already started or completed, skipping
+I0617 22:26:54.181219  3592 server.go:1111] Serving UI bundle from embedded assets
+I0617 22:26:54.186422  3592 server.go:1898] initialized server successfully in 2.052493347s
+W0617 22:26:54.189004  3592 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+W0617 22:26:54.189374  3592 log_context.go:117] Cache(userInfo): Singleflight refresh failed: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+E0617 22:26:54.190250  3592 server.go:601] Failed to get OAuth token: error getting token source from auth provider: You are not logged into Antigravity.
+W0617 22:26:54.190308  3592 client.go:81] failed to set auth token
+E0617 22:26:56.247855  3592 interceptor.go:74] /exa.language_server_pb.LanguageServerService/GetCascadeNuxes (unknown): error getting token source: You are not logged into Antigravity.
+W0617 22:26:56.251296  3592 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+W0617 22:26:56.251316  3592 log_context.go:117] Cache(userInfo): Singleflight refresh failed: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+E0617 22:26:56.251335  3592 interceptor.go:74] /exa.language_server_pb.LanguageServerService/GetUserStatus (unknown): GetCascadeModelConfigData() is nil
+W0617 22:26:56.531403  3592 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+W0617 22:26:56.531428  3592 log_context.go:117] Cache(userInfo): Singleflight refresh failed: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+E0617 22:26:56.531444  3592 server.go:601] Failed to get OAuth token: error getting token source from auth provider: You are not logged into Antigravity.
+W0617 22:26:56.531452  3592 client.go:81] failed to set auth token
+W0617 22:27:24.129574  3592 auth_client.go:109] No token found in background token refresh loop
+W0617 22:27:54.129788  3592 auth_client.go:109] No token found in background token refresh loop
+E0617 22:27:54.144322  3592 log.go:398] Failed to poll ListExperiments: error getting token source: You are not logged into Antigravity.
+W0617 22:27:54.147941  3592 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+W0617 22:27:54.148128  3592 log_context.go:117] Cache(availableModels): Singleflight refresh failed: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+E0617 22:27:54.148297  3592 log.go:398] Failed to poll FetchAvailableModels: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+W0617 22:28:24.129909  3592 auth_client.go:109] No token found in background token refresh loop
+W0617 22:28:54.129777  3592 auth_client.go:109] No token found in background token refresh loop
+E0617 22:28:54.142876  3592 log.go:398] Failed to poll ListExperiments: error getting token source: You are not logged into Antigravity.
+W0617 22:28:54.143230  3592 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+W0617 22:28:54.143260  3592 log_context.go:117] Cache(availableModels): Singleflight refresh failed: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+E0617 22:28:54.143316  3592 log.go:398] Failed to poll FetchAvailableModels: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+W0617 22:29:24.129288  3592 auth_client.go:109] No token found in background token refresh loop
+W0617 22:29:54.129706  3592 auth_client.go:109] No token found in background token refresh loop
+E0617 22:29:54.142684  3592 log.go:398] Failed to poll ListExperiments: error getting token source: You are not logged into Antigravity.
+W0617 22:29:54.143345  3592 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+W0617 22:29:54.143389  3592 log_context.go:117] Cache(availableModels): Singleflight refresh failed: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+E0617 22:29:54.143469  3592 log.go:398] Failed to poll FetchAvailableModels: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+W0617 22:30:24.129727  3592 auth_client.go:109] No token found in background token refresh loop
+W0617 22:30:54.130123  3592 auth_client.go:109] No token found in background token refresh loop
+E0617 22:30:54.143321  3592 log.go:398] Failed to poll ListExperiments: error getting token source: You are not logged into Antigravity.
+W0617 22:30:54.143663  3592 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+W0617 22:30:54.143690  3592 log_context.go:117] Cache(availableModels): Singleflight refresh failed: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+E0617 22:30:54.143735  3592 log.go:398] Failed to poll FetchAvailableModels: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+W0617 22:31:24.129697  3592 auth_client.go:109] No token found in background token refresh loop
+W0617 22:31:54.129788  3592 auth_client.go:109] No token found in background token refresh loop
+E0617 22:31:54.142460  3592 log.go:398] Failed to poll ListExperiments: error getting token source: You are not logged into Antigravity.
+W0617 22:31:54.142840  3592 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+W0617 22:31:54.142861  3592 log_context.go:117] Cache(availableModels): Singleflight refresh failed: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+E0617 22:31:54.142900  3592 log.go:398] Failed to poll FetchAvailableModels: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+W0617 22:32:24.129946  3592 auth_client.go:109] No token found in background token refresh loop
+W0617 22:32:54.129787  3592 auth_client.go:109] No token found in background token refresh loop
+E0617 22:32:54.142804  3592 log.go:398] Failed to poll ListExperiments: error getting token source: You are not logged into Antigravity.
+W0617 22:32:54.143421  3592 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+W0617 22:32:54.143452  3592 log_context.go:117] Cache(availableModels): Singleflight refresh failed: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+E0617 22:32:54.143518  3592 log.go:398] Failed to poll FetchAvailableModels: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+W0617 22:33:24.129910  3592 auth_client.go:109] No token found in background token refresh loop
+W0617 22:33:54.130162  3592 auth_client.go:109] No token found in background token refresh loop
+E0617 22:33:54.143307  3592 log.go:398] Failed to poll ListExperiments: error getting token source: You are not logged into Antigravity.
+W0617 22:33:54.144192  3592 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+W0617 22:33:54.144260  3592 log_context.go:117] Cache(availableModels): Singleflight refresh failed: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+E0617 22:33:54.144341  3592 log.go:398] Failed to poll FetchAvailableModels: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+W0617 22:34:24.129833  3592 auth_client.go:109] No token found in background token refresh loop
+W0617 22:34:54.129700  3592 auth_client.go:109] No token found in background token refresh loop
+E0617 22:34:54.143445  3592 log.go:398] Failed to poll ListExperiments: error getting token source: You are not logged into Antigravity.
+W0617 22:34:54.144036  3592 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+W0617 22:34:54.144070  3592 log_context.go:117] Cache(availableModels): Singleflight refresh failed: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+E0617 22:34:54.144134  3592 log.go:398] Failed to poll FetchAvailableModels: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+W0617 22:35:24.129350  3592 auth_client.go:109] No token found in background token refresh loop
+W0617 22:35:54.129811  3592 auth_client.go:109] No token found in background token refresh loop
+E0617 22:35:54.142625  3592 log.go:398] Failed to poll ListExperiments: error getting token source: You are not logged into Antigravity.
+W0617 22:35:54.143458  3592 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+W0617 22:35:54.143520  3592 log_context.go:117] Cache(availableModels): Singleflight refresh failed: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+E0617 22:35:54.143597  3592 log.go:398] Failed to poll FetchAvailableModels: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+W0617 22:36:24.129810  3592 auth_client.go:109] No token found in background token refresh loop
+W0617 22:36:54.130038  3592 auth_client.go:109] No token found in background token refresh loop
+E0617 22:36:54.142923  3592 log.go:398] Failed to poll ListExperiments: error getting token source: You are not logged into Antigravity.
+W0617 22:36:54.143449  3592 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+W0617 22:36:54.143484  3592 log_context.go:117] Cache(availableModels): Singleflight refresh failed: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+E0617 22:36:54.143554  3592 log.go:398] Failed to poll FetchAvailableModels: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+W0617 22:37:24.129244  3592 auth_client.go:109] No token found in background token refresh loop
+W0617 22:37:54.130008  3592 auth_client.go:109] No token found in background token refresh loop
+E0617 22:37:54.142953  3592 log.go:398] Failed to poll ListExperiments: error getting token source: You are not logged into Antigravity.
+W0617 22:37:54.143681  3592 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+W0617 22:37:54.143738  3592 log_context.go:117] Cache(availableModels): Singleflight refresh failed: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+E0617 22:37:54.143803  3592 log.go:398] Failed to poll FetchAvailableModels: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+W0617 22:38:24.130123  3592 auth_client.go:109] No token found in background token refresh loop
+W0617 22:38:54.130188  3592 auth_client.go:109] No token found in background token refresh loop
+E0617 22:38:54.143466  3592 log.go:398] Failed to poll ListExperiments: error getting token source: You are not logged into Antigravity.
+W0617 22:38:54.144010  3592 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+W0617 22:38:54.144048  3592 log_context.go:117] Cache(availableModels): Singleflight refresh failed: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+E0617 22:38:54.144123  3592 log.go:398] Failed to poll FetchAvailableModels: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+W0617 22:39:24.129335  3592 auth_client.go:109] No token found in background token refresh loop
+W0617 22:39:54.129876  3592 auth_client.go:109] No token found in background token refresh loop
+E0617 22:39:54.142806  3592 log.go:398] Failed to poll ListExperiments: error getting token source: You are not logged into Antigravity.
+W0617 22:39:54.143407  3592 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+W0617 22:39:54.143446  3592 log_context.go:117] Cache(availableModels): Singleflight refresh failed: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+E0617 22:39:54.143524  3592 log.go:398] Failed to poll FetchAvailableModels: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+W0617 22:40:24.129968  3592 auth_client.go:109] No token found in background token refresh loop
+W0617 22:40:54.129752  3592 auth_client.go:109] No token found in background token refresh loop
+E0617 22:40:54.142909  3592 log.go:398] Failed to poll ListExperiments: error getting token source: You are not logged into Antigravity.
+W0617 22:40:54.143448  3592 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+W0617 22:40:54.143482  3592 log_context.go:117] Cache(availableModels): Singleflight refresh failed: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+E0617 22:40:54.143553  3592 log.go:398] Failed to poll FetchAvailableModels: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+W0617 22:41:24.129967  3592 auth_client.go:109] No token found in background token refresh loop
+W0617 22:41:54.129889  3592 auth_client.go:109] No token found in background token refresh loop
+E0617 22:41:54.142940  3592 log.go:398] Failed to poll ListExperiments: error getting token source: You are not logged into Antigravity.
+W0617 22:41:54.143555  3592 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+W0617 22:41:54.143591  3592 log_context.go:117] Cache(availableModels): Singleflight refresh failed: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+E0617 22:41:54.143684  3592 log.go:398] Failed to poll FetchAvailableModels: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+W0617 22:42:24.129307  3592 auth_client.go:109] No token found in background token refresh loop
+W0617 22:42:54.129603  3592 auth_client.go:109] No token found in background token refresh loop
+E0617 22:42:54.142546  3592 log.go:398] Failed to poll ListExperiments: error getting token source: You are not logged into Antigravity.
+W0617 22:42:54.143105  3592 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+W0617 22:42:54.143140  3592 log_context.go:117] Cache(availableModels): Singleflight refresh failed: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+E0617 22:42:54.143203  3592 log.go:398] Failed to poll FetchAvailableModels: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+W0617 22:43:24.129735  3592 auth_client.go:109] No token found in background token refresh loop
+W0617 22:43:54.130032  3592 auth_client.go:109] No token found in background token refresh loop
+E0617 22:43:54.142999  3592 log.go:398] Failed to poll ListExperiments: error getting token source: You are not logged into Antigravity.
+W0617 22:43:54.143697  3592 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+W0617 22:43:54.143737  3592 log_context.go:117] Cache(availableModels): Singleflight refresh failed: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+E0617 22:43:54.143815  3592 log.go:398] Failed to poll FetchAvailableModels: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+W0617 22:44:24.129082  3592 auth_client.go:109] No token found in background token refresh loop
+W0617 22:44:54.129304  3592 auth_client.go:109] No token found in background token refresh loop
+E0617 22:44:54.143545  3592 log.go:398] Failed to poll ListExperiments: error getting token source: You are not logged into Antigravity.
+W0617 22:44:54.144111  3592 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+W0617 22:44:54.144149  3592 log_context.go:117] Cache(availableModels): Singleflight refresh failed: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+E0617 22:44:54.144224  3592 log.go:398] Failed to poll FetchAvailableModels: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+W0617 22:45:24.129887  3592 auth_client.go:109] No token found in background token refresh loop
+W0617 22:45:54.129799  3592 auth_client.go:109] No token found in background token refresh loop
+E0617 22:45:54.142531  3592 log.go:398] Failed to poll ListExperiments: error getting token source: You are not logged into Antigravity.
+W0617 22:45:54.143132  3592 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+W0617 22:45:54.143169  3592 log_context.go:117] Cache(availableModels): Singleflight refresh failed: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+E0617 22:45:54.143241  3592 log.go:398] Failed to poll FetchAvailableModels: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+W0617 22:46:24.129651  3592 auth_client.go:109] No token found in background token refresh loop
+W0617 22:46:54.129935  3592 auth_client.go:109] No token found in background token refresh loop
+E0617 22:46:54.143049  3592 log.go:398] Failed to poll ListExperiments: error getting token source: You are not logged into Antigravity.
+W0617 22:46:54.143768  3592 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+W0617 22:46:54.143810  3592 log_context.go:117] Cache(availableModels): Singleflight refresh failed: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+E0617 22:46:54.143888  3592 log.go:398] Failed to poll FetchAvailableModels: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+W0617 22:47:24.129882  3592 auth_client.go:109] No token found in background token refresh loop
+W0617 22:47:54.129315  3592 auth_client.go:109] No token found in background token refresh loop
+E0617 22:47:54.142662  3592 log.go:398] Failed to poll ListExperiments: error getting token source: You are not logged into Antigravity.
+W0617 22:47:54.143382  3592 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+W0617 22:47:54.143433  3592 log_context.go:117] Cache(availableModels): Singleflight refresh failed: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+E0617 22:47:54.143520  3592 log.go:398] Failed to poll FetchAvailableModels: failed to get load code assist response: error getting token source: You are not logged into Antigravity.

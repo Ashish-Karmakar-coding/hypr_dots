@@ -1,0 +1,443 @@
+{
+  "history": [
+    {
+      "message": {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "I already have a claude.md "
+          },
+          {
+            "type": "text",
+            "text": "This project upon using on claude showing me "
+          },
+          {
+            "type": "text",
+            "text": "API Error: 400 profileArn is required for this request"
+          },
+          {
+            "type": "text",
+            "text": "The \"API Error: 400 profileArn is required for this request\" error typically occurs when using the Kiro IDE or Kiro CLI (often integrated with AWS IAM Identity Center or AWS Bedrock) and indicates that your active session is missing a valid Amazon Resource Name (ARN) configuration for your user profile. [1, 2, 3]"
+          },
+          {
+            "type": "text",
+            "text": "Common Root Causes"
+          },
+          {
+            "type": "text",
+            "text": "Stale or Corrupt Auth Session: A cached token has broken or a recent application update caused a schema mismatch."
+          },
+          {
+            "type": "text",
+            "text": "IAM Identity Center Misconfiguration: Your user/group assignment hasn't propagated or the status is stuck in \"Pending\" within AWS."
+          },
+          {
+            "type": "text",
+            "text": "Google/Social Login Bug: Known authentication handling bugs on specific CLI versions when skipping AWS Builder IDs"
+          },
+          {
+            "type": "text",
+            "text": "Is there any way to fix this error here or it is other service issue"
+          }
+        ],
+        "id": "ab652dfc-66b2-4894-b0bb-c1dbeb7bc13c"
+      },
+      "contextItems": [],
+      "editorState": {
+        "type": "doc",
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "I already have a claude.md "
+              }
+            ]
+          },
+          {
+            "type": "paragraph"
+          },
+          {
+            "type": "paragraph"
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "This project upon using on claude showing me "
+              }
+            ]
+          },
+          {
+            "type": "paragraph"
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "API Error: 400 profileArn is required for this request"
+              }
+            ]
+          },
+          {
+            "type": "paragraph"
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "The \"API Error: 400 profileArn is required for this request\" error typically occurs when using the Kiro IDE or Kiro CLI (often integrated with AWS IAM Identity Center or AWS Bedrock) and indicates that your active session is missing a valid Amazon Resource Name (ARN) configuration for your user profile. [1, 2, 3]"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Common Root Causes"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Stale or Corrupt Auth Session: A cached token has broken or a recent application update caused a schema mismatch."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "IAM Identity Center Misconfiguration: Your user/group assignment hasn't propagated or the status is stuck in \"Pending\" within AWS."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Google/Social Login Bug: Known authentication handling bugs on specific CLI versions when skipping AWS Builder IDs"
+              }
+            ]
+          },
+          {
+            "type": "paragraph"
+          },
+          {
+            "type": "paragraph"
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Is there any way to fix this error here or it is other service issue"
+              }
+            ]
+          }
+        ]
+      },
+      "promptLogs": [
+        {
+          "modelTitle": "Agent",
+          "prompt": "<user>\nI already have a claude.md \nThis project upon using on claude showing me \nAPI Error: 400 profileArn is required for this request\nThe \"API Error: 400 profileArn is required for this request\" error typically occurs when using the Kiro IDE or Kiro CLI (often integrated with AWS IAM Identity Center or AWS Bedrock) and indicates that your active session is missing a valid Amazon Resource Name (ARN) configuration for your user profile. [1, 2, 3]\nCommon Root Causes\nStale or Corrupt Auth Session: A cached token has broken or a recent application update caused a schema mismatch.\nIAM Identity Center Misconfiguration: Your user/group assignment hasn't propagated or the status is stuck in \"Pending\" within AWS.\nGoogle/Social Login Bug: Known authentication handling bugs on specific CLI versions when skipping AWS Builder IDs\nIs there any way to fix this error here or it is other service issue\n\n",
+          "completion": "",
+          "completionOptions": {
+            "model": "agent",
+            "maxTokens": 4000,
+            "preserveContinuationId": false
+          }
+        }
+      ]
+    },
+    {
+      "message": {
+        "role": "assistant",
+        "content": "On it.",
+        "id": "4e2bec3f-2da8-4361-a3ce-abae95c1188a"
+      },
+      "executionId": "c78ea5b3-5e49-4ab0-8b2c-22f5534bb38d",
+      "editorState": {
+        "type": "doc",
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "On it."
+              }
+            ]
+          }
+        ]
+      },
+      "contextItems": []
+    },
+    {
+      "message": {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "HTTP 400 - POST /v1/messages - Improperly formed request. (reason: REQUEST_BODY_INVALID)"
+          }
+        ],
+        "id": "b7be62fd-136c-4343-b457-11c777490f54"
+      },
+      "contextItems": [],
+      "editorState": {
+        "type": "doc",
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "HTTP 400 - POST /v1/messages - Improperly formed request. (reason: REQUEST_BODY_INVALID)"
+              }
+            ]
+          }
+        ]
+      },
+      "promptLogs": [
+        {
+          "modelTitle": "Agent",
+          "prompt": "<user>\nI already have a claude.md \nThis project upon using on claude showing me \nAPI Error: 400 profileArn is required for this request\nThe \"API Error: 400 profileArn is required for this request\" error typically occurs when using the Kiro IDE or Kiro CLI (often integrated with AWS IAM Identity Center or AWS Bedrock) and indicates that your active session is missing a valid Amazon Resource Name (ARN) configuration for your user profile. [1, 2, 3]\nCommon Root Causes\nStale or Corrupt Auth Session: A cached token has broken or a recent application update caused a schema mismatch.\nIAM Identity Center Misconfiguration: Your user/group assignment hasn't propagated or the status is stuck in \"Pending\" within AWS.\nGoogle/Social Login Bug: Known authentication handling bugs on specific CLI versions when skipping AWS Builder IDs\nIs there any way to fix this error here or it is other service issue\n\n<assistant>\n\n\n<user>\nHTTP 400 - POST /v1/messages - Improperly formed request. (reason: REQUEST_BODY_INVALID)\n\n",
+          "completion": "",
+          "completionOptions": {
+            "model": "agent",
+            "maxTokens": 4000,
+            "preserveContinuationId": false
+          }
+        }
+      ]
+    },
+    {
+      "message": {
+        "role": "assistant",
+        "content": "On it.",
+        "id": "e81ef5f4-839e-4d12-a99f-014383705764"
+      },
+      "executionId": "2dddfe0c-4232-46e5-bbee-7033bc5beef0",
+      "editorState": {
+        "type": "doc",
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "On it."
+              }
+            ]
+          }
+        ]
+      },
+      "contextItems": []
+    },
+    {
+      "message": {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "HTTP 400 - POST /v1/messages - Improperly formed request. (reason: REQUEST_BODY_INVALID)"
+          }
+        ],
+        "id": "abf23eef-72cd-4dfd-a986-ec6ac4df1aa1"
+      },
+      "contextItems": [],
+      "editorState": {
+        "type": "doc",
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "HTTP 400 - POST /v1/messages - Improperly formed request. (reason: REQUEST_BODY_INVALID)"
+              }
+            ]
+          }
+        ]
+      },
+      "promptLogs": [
+        {
+          "modelTitle": "Agent",
+          "prompt": "<user>\nI already have a claude.md \nThis project upon using on claude showing me \nAPI Error: 400 profileArn is required for this request\nThe \"API Error: 400 profileArn is required for this request\" error typically occurs when using the Kiro IDE or Kiro CLI (often integrated with AWS IAM Identity Center or AWS Bedrock) and indicates that your active session is missing a valid Amazon Resource Name (ARN) configuration for your user profile. [1, 2, 3]\nCommon Root Causes\nStale or Corrupt Auth Session: A cached token has broken or a recent application update caused a schema mismatch.\nIAM Identity Center Misconfiguration: Your user/group assignment hasn't propagated or the status is stuck in \"Pending\" within AWS.\nGoogle/Social Login Bug: Known authentication handling bugs on specific CLI versions when skipping AWS Builder IDs\nIs there any way to fix this error here or it is other service issue\n\n<assistant>\n\n\n<user>\nHTTP 400 - POST /v1/messages - Improperly formed request. (reason: REQUEST_BODY_INVALID)\n\n<assistant>\n\n\n<user>\nHTTP 400 - POST /v1/messages - Improperly formed request. (reason: REQUEST_BODY_INVALID)\n\n",
+          "completion": "",
+          "completionOptions": {
+            "model": "agent",
+            "maxTokens": 4000,
+            "preserveContinuationId": false
+          }
+        }
+      ]
+    },
+    {
+      "message": {
+        "role": "assistant",
+        "content": "On it.",
+        "id": "9c24ce83-7b13-48c8-b891-80a7e3fc7c65"
+      },
+      "executionId": "33dc070c-def7-48bd-b152-36b5218a1411",
+      "editorState": {
+        "type": "doc",
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "On it."
+              }
+            ]
+          }
+        ]
+      },
+      "contextItems": []
+    }
+  ],
+  "contextItems": [],
+  "ttsActive": false,
+  "active": false,
+  "isGatheringContext": false,
+  "hasPendingIntentClarification": false,
+  "config": {
+    "allowAnonymousTelemetry": true,
+    "models": [
+      {
+        "provider": "kiro",
+        "model": "agent",
+        "title": "Agent",
+        "contextLength": 40000,
+        "completionOptions": {
+          "model": "agent",
+          "maxTokens": 4000
+        },
+        "requestOptions": {},
+        "promptTemplates": {}
+      },
+      {
+        "provider": "qdev",
+        "model": "qdev",
+        "title": "AmazonQDeveloper",
+        "contextLength": 200000,
+        "completionOptions": {
+          "model": "qdev",
+          "maxTokens": 8192
+        },
+        "requestOptions": {},
+        "promptTemplates": {}
+      }
+    ],
+    "contextProviders": [
+      {
+        "title": "file",
+        "displayTitle": "Files",
+        "description": "Type to search (supports line ranges: file.ts:42 or file.ts:42-64)",
+        "type": "submenu",
+        "dependsOnIndexing": true
+      },
+      {
+        "title": "spec",
+        "displayTitle": "Spec",
+        "description": "Reference a spec from .kiro/specs",
+        "type": "submenu",
+        "renderInlineAs": ""
+      },
+      {
+        "title": "diff",
+        "displayTitle": "Git Diff",
+        "description": "Reference the current git diff",
+        "type": "normal"
+      },
+      {
+        "title": "terminal",
+        "displayTitle": "Terminal",
+        "description": "Reference the contents of the terminal",
+        "type": "normal"
+      },
+      {
+        "title": "problems",
+        "displayTitle": "Problems",
+        "description": "Reference problems in the current file",
+        "type": "normal"
+      },
+      {
+        "title": "folder",
+        "displayTitle": "Folder",
+        "description": "Type to search",
+        "type": "submenu"
+      },
+      {
+        "title": "currentFile",
+        "displayTitle": "Current File",
+        "description": "Reference the currently open file",
+        "type": "normal",
+        "renderInlineAs": ""
+      },
+      {
+        "title": "steering",
+        "displayTitle": "Steering",
+        "description": "Reference steering files in your workspace",
+        "type": "submenu",
+        "renderInlineAs": ""
+      },
+      {
+        "title": "mcp",
+        "displayTitle": "MCP",
+        "description": "Model Context Protocol",
+        "type": "submenu"
+      }
+    ],
+    "embeddingsProvider": "TransformersJsEmbeddingsProvider::all-MiniLM-L6-v2",
+    "experimental": {
+      "modelRoles": {
+        "inlineEdit": "AmazonQDeveloper"
+      }
+    }
+  },
+  "title": "Clean State",
+  "sessionId": "b5f31cfd-5082-4587-98d5-56fbf2846737",
+  "defaultModelTitle": "Agent",
+  "selectedProfileId": "local",
+  "workspacePath": "/home/kenshin/Github/KiroRouter",
+  "activeTabs": [
+    "b5f31cfd-5082-4587-98d5-56fbf2846737"
+  ],
+  "activeTabId": "b5f31cfd-5082-4587-98d5-56fbf2846737",
+  "autonomyMode": "Supervised",
+  "sessionType": "vibe",
+  "isQueueDropdownVisible": false,
+  "selectedModel": "claude-opus-4.8",
+  "perSessionModelSelection": false,
+  "isUsageSummaryEnabled": true,
+  "contextUsagePercentageBySession": {
+    "b5f31cfd-5082-4587-98d5-56fbf2846737": 7.066500186920166
+  },
+  "initialContextEstimate": {
+    "usagePercentage": 5.462,
+    "mcpToolsPercentage": 0,
+    "steeringPercentage": 3.5869999999999997,
+    "exceedsThreshold": {
+      "total": false,
+      "mcpTools": false,
+      "steering": false
+    }
+  },
+  "sessionStartHookResultsBySession": {},
+  "workspaceDirectory": "/home/kenshin/Github/KiroRouter",
+  "contextUsagePercentage": 7.066500186920166
+}
