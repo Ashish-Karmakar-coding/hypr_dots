@@ -1,10 +1,11 @@
 #!/bin/bash
 
-WALLPAPER_DIR="$HOME/wallpapers/"
-HISTORY_FILE="$HOME/.last_wallpaper"
+WALLPAPER_DIR="$HOME/Photos/wallpapers/"
+# FIX 1: History file must point to an actual file, not a directory.
+HISTORY_FILE="$HOME/Photos/wallpapers/.wallpaper_history"
 
-# Get the list of wallpapers sorted alphabetically
-WALLPAPERS=($(find "$WALLPAPER_DIR" -type f | sort))
+# FIX 2 & 3: Use mapfile to handle spaces in filenames safely, and explicitly filter for images
+mapfile -t WALLPAPERS < <(find "$WALLPAPER_DIR" -type f \( -iname "*.png" -o -iname "*.jpg" -o -iname "*.jpeg" \) | sort)
 
 # Stop if no wallpapers are found
 if [[ ${#WALLPAPERS[@]} -eq 0 ]]; then
@@ -44,7 +45,7 @@ echo "$WALLPAPER" > "$HISTORY_FILE"
 # Check if swww is running
 if pgrep -x swww-daemon > /dev/null || pgrep -x swww > /dev/null; then
     # Use swww for a smooth wipe transition
-    swww img "$WALLPAPER" --transition-type wipe --transition-angle 30 --transition-step 90
+    swww img "$WALLPAPER" --transition-type wipe --transition-angle 30 --transition-step 2 --transition-fps 60	
 
 # Check if hyprpaper is running instead
 elif pgrep -x hyprpaper > /dev/null; then

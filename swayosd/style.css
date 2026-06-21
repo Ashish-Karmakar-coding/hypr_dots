@@ -1,0 +1,56 @@
+window#osd {
+  border-radius: 999px;
+  /* Subtle white border gives the "frosted glass edge" effect */
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  
+  /* Translucent white/very light gray background */
+  background: rgba(245, 245, 245, 0.35);
+
+  #container {
+    margin: 16px;
+  }
+
+  image,
+  label {
+    /* Dark gray for sharp contrast against the translucent white background */
+    color: #424242;
+  }
+
+  progressbar:disabled,
+  image:disabled {
+    opacity: 0.4;
+  }
+
+  progressbar,
+  segmentedprogress {
+    min-height: 6px;
+    border-radius: 999px;
+    background: transparent;
+    border: none;
+  }
+  
+  trough,
+  segment {
+    min-height: inherit;
+    border-radius: inherit;
+    border: none;
+    /* Semi-transparent dark gray for the empty part of the bar */
+    background: rgba(66, 66, 66, 0.15);
+  }
+  
+  progress,
+  segment.active {
+    min-height: inherit;
+    border-radius: inherit;
+    border: none;
+    /* Solid, elegant medium-dark gray for the active fill */
+    background: #616161;
+  }
+
+  segment {
+    margin-left: 8px;
+    &:first-child {
+      margin-left: 0;
+    }
+  }
+}
